@@ -1,0 +1,3 @@
+#!/bin/bash
+
+caliper benchmark run --caliper-workspace ./ --caliper-benchconfig benchmarks/scenario/smallbank/config_linear_raft.yaml --caliper-networkconfig networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300_container/fabric-go.yaml

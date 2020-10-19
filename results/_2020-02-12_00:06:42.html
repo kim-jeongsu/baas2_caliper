@@ -1,0 +1,426 @@
+<!doctype html>
+<html>
+<head>
+    <title>Caliper Report</title>
+    <meta charset="UTF-8"/>
+    <style type="text/css">
+        .left-column {
+            position: fixed;
+            width:20%;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+        }
+        .right-column {
+            margin-left: 22%;
+            width:60%;
+        }
+        .left-column ul,h2 {
+            display: block;
+            margin: 10px;
+            padding: 0;
+            list-style: none;
+        }
+        .left-column ul{
+            border-top: 1px solid #d9d9d9;
+            font-size: 14px;
+        }
+        .left-column li{
+            margin-bottom: 5px;
+            color: #5e6b73;
+        }
+        .left-column h3 {
+            border-left: 5px solid #009a61;
+        }
+        .right-column>div {
+            border-top: 1px solid #d9d9d9;
+        }
+        .right-column table {
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color:#333333;
+            border-width: 1px;
+            border-color: #666666;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+        .right-column th {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #f2f2f2;
+        }
+        .right-column td {
+            border-width: 1px;
+            padding: 8px;
+            border-style: solid;
+            border-color: #666666;
+            background-color: #ffffff;
+        }
+        .tag {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 5px 10px;
+            background-color: rgba(1,126,102,0.08);
+            font-family: verdana,arial,sans-serif;
+            font-size:11px;
+            color: #017E66;
+            text-align: center;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+        }
+        pre {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -khtml-border-radius: 5px;
+            overflow:auto;
+            max-height:300px;
+            font-size:12px;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <div class="left-column">
+        <h2>Caliper Report</h2>
+        <ul>
+            <h3>&nbspBasic information</h3>
+            <li><strong>DLT: &nbsp</strong><span>fabric</span></li>
+            <li><strong>Benchmark: &nbsp</strong><span>smallbank</span></li>
+            <li><strong>Description: &nbsp</strong><span>This is smallbank benchmark for caliper</span></li>
+            <li><strong>Test Rounds: &nbsp</strong><span>3</span></li>
+            <li><a href="#benchmarkInfo">Details</a></li>
+        </ul>
+        <ul>
+            <h3>&nbspBenchmark results</h3>
+            <li><a href="#benchmarksummary">Summary</a></li>
+                <li><a href="#smallOperations">smallOperations</a></li>
+        </ul>
+        <ul>
+            <h3>&nbspSystem Under Test</h3>
+            <li><strong>Version: &nbsp</strong><span>1.4.1</span></li>
+            <li><strong>Size: &nbsp</strong><span>2 Orgs with 4 Peers</span></li>
+            <li><strong>Orderer: &nbsp</strong><span>Kafka</span></li>
+            <li><strong>Distribution: &nbsp</strong><span>Single Host</span></li>
+            <li><strong>StateDB: &nbsp</strong><span>GoLevelDB</span></li>
+            <li><a href="#sutdetails">Details</a></li>
+        </ul>
+    </div>
+
+    <div class="right-column">
+        <div id="benchmarksummary">
+            <table>
+                <h3>Summary</h3>
+                <tr>
+                     <th>Test</th> <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                </tr>
+
+                <tr>
+                     <td>1</td> <td>smallOperations</td> <td>20000</td> <td>0</td> <td>797.7 tps</td> <td>3.89 s</td> <td>0.68 s</td> <td>1.66 s</td> <td>752.7 tps</td>
+                </tr>
+                <tr>
+                     <td>2</td> <td>smallOperations</td> <td>20000</td> <td>0</td> <td>858.7 tps</td> <td>6.09 s</td> <td>0.25 s</td> <td>1.79 s</td> <td>785.4 tps</td>
+                </tr>
+                <tr>
+                     <td>3</td> <td>smallOperations</td> <td>19922</td> <td>78</td> <td>811.0 tps</td> <td>9.93 s</td> <td>0.35 s</td> <td>3.34 s</td> <td>475.3 tps</td>
+                </tr>
+            </table>
+        </div>
+        <div id="smallOperations">
+            <h3>smallOperations</h3>
+            <p></p>
+                <h3>round 0</h3>
+                <strong class="tag">performance metrics</strong>
+                <table>
+                    <tr>
+                         <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                    </tr>
+                    <tr>
+                         <td>smallOperations</td> <td>20000</td> <td>0</td> <td>797.7 tps</td> <td>3.89 s</td> <td>0.68 s</td> <td>1.66 s</td> <td>752.7 tps</td>
+                    </tr>
+                </table>
+                <strong class="tag">resource consumption</strong>
+                <table>
+                    <tr>
+                         <th>TYPE</th> <th>NAME</th> <th>Memory(max)</th> <th>Memory(avg)</th> <th>CPU(max)</th> <th>CPU(avg)</th> <th>Traffic In</th> <th>Traffic Out</th> <th>Disc Read</th> <th>Disc Write</th>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org1.oslab.com-...nk-v0</td> <td>12.8MB</td> <td>11.2MB</td> <td>35.47%</td> <td>29.28%</td> <td>17.0MB</td> <td>8.7MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org2.oslab.com-...nk-v0</td> <td>14.5MB</td> <td>11.4MB</td> <td>34.43%</td> <td>29.71%</td> <td>17.1MB</td> <td>8.7MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org2.oslab.com-...nk-v0</td> <td>13.1MB</td> <td>11.3MB</td> <td>35.83%</td> <td>29.37%</td> <td>17.0MB</td> <td>8.7MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org1.oslab.com-...nk-v0</td> <td>13.4MB</td> <td>11.1MB</td> <td>34.17%</td> <td>28.63%</td> <td>17.1MB</td> <td>8.7MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org1.oslab.com</td> <td>371.3MB</td> <td>243.8MB</td> <td>356.13%</td> <td>240.10%</td> <td>97.3MB</td> <td>43.6MB</td> <td>0B</td> <td>248.1MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org2.oslab.com</td> <td>376.1MB</td> <td>243.3MB</td> <td>309.97%</td> <td>240.17%</td> <td>97.3MB</td> <td>43.8MB</td> <td>0B</td> <td>248.2MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org2.oslab.com</td> <td>366.0MB</td> <td>242.6MB</td> <td>301.57%</td> <td>241.78%</td> <td>97.6MB</td> <td>43.7MB</td> <td>8.0KB</td> <td>247.0MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org1.oslab.com</td> <td>377.2MB</td> <td>246.1MB</td> <td>334.18%</td> <td>236.88%</td> <td>97.8MB</td> <td>44.9MB</td> <td>0B</td> <td>248.2MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer2.oslab.com</td> <td>624.8MB</td> <td>422.2MB</td> <td>147.99%</td> <td>101.67%</td> <td>119.4MB</td> <td>119.3MB</td> <td>0B</td> <td>205.7MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer1.oslab.com</td> <td>544.3MB</td> <td>375.8MB</td> <td>141.29%</td> <td>105.64%</td> <td>115.6MB</td> <td>268.0MB</td> <td>0B</td> <td>204.7MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer0.oslab.com</td> <td>599.4MB</td> <td>391.1MB</td> <td>130.06%</td> <td>102.22%</td> <td>116.7MB</td> <td>40.0MB</td> <td>0B</td> <td>206.8MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka0</td> <td>314.9MB</td> <td>314.9MB</td> <td>2.18%</td> <td>0.93%</td> <td>1.5KB</td> <td>1.8KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka2</td> <td>460.3MB</td> <td>394.7MB</td> <td>77.07%</td> <td>32.78%</td> <td>77.3MB</td> <td>481.8KB</td> <td>0B</td> <td>40.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka1</td> <td>457.8MB</td> <td>408.2MB</td> <td>69.58%</td> <td>28.77%</td> <td>77.1MB</td> <td>639.6KB</td> <td>0B</td> <td>40.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka3</td> <td>535.3MB</td> <td>456.0MB</td> <td>250.41%</td> <td>116.28%</td> <td>80.4MB</td> <td>391.0MB</td> <td>0B</td> <td>40.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org2.oslab.com</td> <td>10.4MB</td> <td>10.4MB</td> <td>0.00%</td> <td>0.00%</td> <td>525B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper1</td> <td>60.1MB</td> <td>60.0MB</td> <td>1.43%</td> <td>0.47%</td> <td>7.6KB</td> <td>4.4KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper2</td> <td>57.3MB</td> <td>57.1MB</td> <td>0.47%</td> <td>0.24%</td> <td>7.2KB</td> <td>8.8KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org1.oslab.com</td> <td>11.2MB</td> <td>11.2MB</td> <td>0.00%</td> <td>0.00%</td> <td>525B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper0</td> <td>53.0MB</td> <td>53.0MB</td> <td>0.42%</td> <td>0.20%</td> <td>6.2KB</td> <td>3.4KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                </table>
+                <h3>round 1</h3>
+                <strong class="tag">performance metrics</strong>
+                <table>
+                    <tr>
+                         <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                    </tr>
+                    <tr>
+                         <td>smallOperations</td> <td>20000</td> <td>0</td> <td>858.7 tps</td> <td>6.09 s</td> <td>0.25 s</td> <td>1.79 s</td> <td>785.4 tps</td>
+                    </tr>
+                </table>
+                <strong class="tag">resource consumption</strong>
+                <table>
+                    <tr>
+                         <th>TYPE</th> <th>NAME</th> <th>Memory(max)</th> <th>Memory(avg)</th> <th>CPU(max)</th> <th>CPU(avg)</th> <th>Traffic In</th> <th>Traffic Out</th> <th>Disc Read</th> <th>Disc Write</th>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org1.oslab.com-...nk-v0</td> <td>13.0MB</td> <td>12.9MB</td> <td>39.02%</td> <td>32.26%</td> <td>16.2MB</td> <td>8.2MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org2.oslab.com-...nk-v0</td> <td>13.5MB</td> <td>13.5MB</td> <td>42.63%</td> <td>32.78%</td> <td>16.0MB</td> <td>8.2MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org2.oslab.com-...nk-v0</td> <td>13.4MB</td> <td>13.3MB</td> <td>38.83%</td> <td>32.06%</td> <td>16.2MB</td> <td>8.3MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org1.oslab.com-...nk-v0</td> <td>13.5MB</td> <td>13.5MB</td> <td>39.26%</td> <td>32.25%</td> <td>16.2MB</td> <td>8.2MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org1.oslab.com</td> <td>500.1MB</td> <td>443.6MB</td> <td>307.72%</td> <td>280.62%</td> <td>93.4MB</td> <td>41.4MB</td> <td>0B</td> <td>294.9MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org2.oslab.com</td> <td>505.3MB</td> <td>447.1MB</td> <td>302.29%</td> <td>276.17%</td> <td>93.7MB</td> <td>41.4MB</td> <td>0B</td> <td>296.2MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org2.oslab.com</td> <td>493.8MB</td> <td>441.6MB</td> <td>315.35%</td> <td>280.70%</td> <td>94.2MB</td> <td>41.4MB</td> <td>0B</td> <td>297.4MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org1.oslab.com</td> <td>508.2MB</td> <td>449.0MB</td> <td>318.43%</td> <td>281.03%</td> <td>93.6MB</td> <td>41.4MB</td> <td>0B</td> <td>298.4MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer2.oslab.com</td> <td>749.5MB</td> <td>676.4MB</td> <td>241.52%</td> <td>144.86%</td> <td>117.8MB</td> <td>117.8MB</td> <td>0B</td> <td>198.3MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer1.oslab.com</td> <td>766.5MB</td> <td>628.9MB</td> <td>154.50%</td> <td>122.09%</td> <td>110.1MB</td> <td>256.6MB</td> <td>0B</td> <td>198.3MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer0.oslab.com</td> <td>715.2MB</td> <td>655.4MB</td> <td>168.02%</td> <td>115.09%</td> <td>111.4MB</td> <td>38.0MB</td> <td>0B</td> <td>199.3MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka0</td> <td>317.7MB</td> <td>316.5MB</td> <td>1.19%</td> <td>0.71%</td> <td>946B</td> <td>1.5KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka2</td> <td>543.1MB</td> <td>503.8MB</td> <td>60.79%</td> <td>13.68%</td> <td>74.3MB</td> <td>483.3KB</td> <td>0B</td> <td>48.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka1</td> <td>551.7MB</td> <td>509.7MB</td> <td>24.88%</td> <td>11.55%</td> <td>74.3MB</td> <td>616.7KB</td> <td>0B</td> <td>48.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka3</td> <td>632.2MB</td> <td>586.6MB</td> <td>131.20%</td> <td>78.20%</td> <td>77.0MB</td> <td>375.4MB</td> <td>0B</td> <td>48.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org2.oslab.com</td> <td>10.4MB</td> <td>10.4MB</td> <td>0.00%</td> <td>0.00%</td> <td>0B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper1</td> <td>60.4MB</td> <td>60.3MB</td> <td>0.52%</td> <td>0.26%</td> <td>6.4KB</td> <td>4.0KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper2</td> <td>57.4MB</td> <td>57.3MB</td> <td>0.50%</td> <td>0.29%</td> <td>5.6KB</td> <td>7.5KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org1.oslab.com</td> <td>11.2MB</td> <td>11.2MB</td> <td>0.00%</td> <td>0.00%</td> <td>0B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper0</td> <td>53.3MB</td> <td>53.2MB</td> <td>0.39%</td> <td>0.24%</td> <td>4.8KB</td> <td>2.9KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                </table>
+                <h3>round 2</h3>
+                <strong class="tag">performance metrics</strong>
+                <table>
+                    <tr>
+                         <th>Name</th> <th>Succ</th> <th>Fail</th> <th>Send Rate</th> <th>Max Latency</th> <th>Min Latency</th> <th>Avg Latency</th> <th>Throughput</th>
+                    </tr>
+                    <tr>
+                         <td>smallOperations</td> <td>19922</td> <td>78</td> <td>811.0 tps</td> <td>9.93 s</td> <td>0.35 s</td> <td>3.34 s</td> <td>475.3 tps</td>
+                    </tr>
+                </table>
+                <strong class="tag">resource consumption</strong>
+                <table>
+                    <tr>
+                         <th>TYPE</th> <th>NAME</th> <th>Memory(max)</th> <th>Memory(avg)</th> <th>CPU(max)</th> <th>CPU(avg)</th> <th>Traffic In</th> <th>Traffic Out</th> <th>Disc Read</th> <th>Disc Write</th>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org1.oslab.com-...nk-v0</td> <td>13.1MB</td> <td>13.1MB</td> <td>47.52%</td> <td>20.64%</td> <td>15.9MB</td> <td>8.1MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer1.org2.oslab.com-...nk-v0</td> <td>13.8MB</td> <td>13.6MB</td> <td>45.88%</td> <td>20.98%</td> <td>15.9MB</td> <td>8.2MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org2.oslab.com-...nk-v0</td> <td>13.4MB</td> <td>13.4MB</td> <td>46.48%</td> <td>20.47%</td> <td>15.9MB</td> <td>8.1MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>dev-peer0.org1.oslab.com-...nk-v0</td> <td>13.6MB</td> <td>13.6MB</td> <td>47.69%</td> <td>21.12%</td> <td>15.9MB</td> <td>8.1MB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org1.oslab.com</td> <td>609.8MB</td> <td>575.1MB</td> <td>328.97%</td> <td>176.29%</td> <td>92.5MB</td> <td>40.9MB</td> <td>0B</td> <td>365.6MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org2.oslab.com</td> <td>612.8MB</td> <td>579.3MB</td> <td>316.91%</td> <td>178.49%</td> <td>92.5MB</td> <td>40.9MB</td> <td>0B</td> <td>365.5MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer1.org2.oslab.com</td> <td>613.9MB</td> <td>576.9MB</td> <td>318.31%</td> <td>178.03%</td> <td>92.2MB</td> <td>40.9MB</td> <td>0B</td> <td>365.5MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>peer0.org1.oslab.com</td> <td>621.1MB</td> <td>584.4MB</td> <td>329.69%</td> <td>186.20%</td> <td>93.2MB</td> <td>41.3MB</td> <td>0B</td> <td>367.9MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer2.oslab.com</td> <td>827.8MB</td> <td>802.9MB</td> <td>251.31%</td> <td>71.17%</td> <td>103.4MB</td> <td>104.0MB</td> <td>0B</td> <td>196.1MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer1.oslab.com</td> <td>888.4MB</td> <td>845.8MB</td> <td>319.70%</td> <td>83.57%</td> <td>112.5MB</td> <td>259.3MB</td> <td>0B</td> <td>197.1MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>orderer0.oslab.com</td> <td>969.1MB</td> <td>855.8MB</td> <td>211.59%</td> <td>74.16%</td> <td>119.8MB</td> <td>46.5MB</td> <td>0B</td> <td>198.2MB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka0</td> <td>315.0MB</td> <td>315.0MB</td> <td>1.41%</td> <td>0.73%</td> <td>2.1KB</td> <td>2.8KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka2</td> <td>645.6MB</td> <td>610.6MB</td> <td>7.52%</td> <td>3.08%</td> <td>72.9MB</td> <td>240.5KB</td> <td>0B</td> <td>64.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka1</td> <td>651.3MB</td> <td>618.7MB</td> <td>24.82%</td> <td>6.72%</td> <td>73.4MB</td> <td>452.7KB</td> <td>0B</td> <td>64.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>kafka3</td> <td>782.6MB</td> <td>732.5MB</td> <td>99.46%</td> <td>26.40%</td> <td>74.7MB</td> <td>368.5MB</td> <td>0B</td> <td>64.0KB</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org2.oslab.com</td> <td>10.6MB</td> <td>10.6MB</td> <td>0.40%</td> <td>0.03%</td> <td>441B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper1</td> <td>60.6MB</td> <td>60.5MB</td> <td>0.42%</td> <td>0.19%</td> <td>11.8KB</td> <td>7.1KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper2</td> <td>58.2MB</td> <td>57.8MB</td> <td>0.26%</td> <td>0.20%</td> <td>10.5KB</td> <td>13.3KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>ca.org1.oslab.com</td> <td>11.3MB</td> <td>11.3MB</td> <td>0.00%</td> <td>0.00%</td> <td>441B</td> <td>0B</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                    <tr>
+                         <td>Docker</td> <td>zookeeper0</td> <td>53.6MB</td> <td>53.4MB</td> <td>1.18%</td> <td>0.28%</td> <td>9.0KB</td> <td>5.2KB</td> <td>0B</td> <td>0B</td>
+                    </tr>
+                </table>
+        </div>
+        <div>
+            <h3>Test Environment</h3>
+            <strong class="tag">benchmark config</strong>
+            <pre id="benchmarkInfo" style="overflow: visible;white-space: pre-wrap;max-height:100%;">{
+  &quot;name&quot;: &quot;smallbank&quot;,
+  &quot;description&quot;: &quot;This is smallbank benchmark for caliper&quot;,
+  &quot;clients&quot;: {
+    &quot;type&quot;: &quot;local&quot;,
+    &quot;number&quot;: 10
+  },
+  &quot;rounds&quot;: [
+    {
+      &quot;label&quot;: &quot;smallOperations&quot;,
+      &quot;txNumber&quot;: [
+        20000,
+        20000,
+        20000
+      ],
+      &quot;rateControl&quot;: [
+        {
+          &quot;type&quot;: &quot;fixed-rate&quot;,
+          &quot;opts&quot;: {
+            &quot;tps&quot;: 800
+          }
+        },
+        {
+          &quot;type&quot;: &quot;fixed-rate&quot;,
+          &quot;opts&quot;: {
+            &quot;tps&quot;: 900
+          }
+        },
+        {
+          &quot;type&quot;: &quot;fixed-rate&quot;,
+          &quot;opts&quot;: {
+            &quot;tps&quot;: 1000
+          }
+        }
+      ],
+      &quot;arguments&quot;: {
+        &quot;accounts&quot;: 50000,
+        &quot;txnPerBatch&quot;: 10
+      },
+      &quot;callback&quot;: &quot;benchmarks&#x2F;scenario&#x2F;smallbank&#x2F;smallbankOperations-backup.js&quot;
+    }
+  ]
+}</pre>
+            <strong class="tag">SUT</strong>
+            <pre id="sutdetails">not provided</pre>
+        </div>
+    </div>
+
+
+</main>
+
+</body>
+</html>

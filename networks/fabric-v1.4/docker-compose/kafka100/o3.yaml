@@ -1,0 +1,37 @@
+version: '2'
+
+services:
+    orderer2.oslab.com:
+        container_name: orderer2.oslab.com
+        network_mode: host
+        image: hyperledger/fabric-orderer:1.4.1
+        environment:
+        - FABRIC_LOGGING_SPEC=error:error
+        - ORDERER_GENERAL_LISTENPORT=7050
+        - ORDERER_GENERAL_LISTENADDRESS=10.0.0.238
+        - ORDERER_GENERAL_GENESISMETHOD=file
+        - CONFIGTX_ORDERER_KAFKA_BROKERS=[kafka0:9092,kafka1:9092,kafka2:9092,kafka3:9092]
+        - ORDERER_GENERAL_GENESISFILE=/etc/hyperledger/configtx/genesis.block
+        - ORDERER_GENERAL_LOCALMSPID=OrdererMSP
+        - ORDERER_GENERAL_LOCALMSPDIR=/etc/hyperledger/msp/orderer/msp
+        - ORDERER_GENERAL_TLS_ENABLED=true
+        - ORDERER_KAFKA_VERBOSE=true
+        - ORDERER_GENERAL_TLS_PRIVATEKEY=/etc/hyperledger/msp/orderer/tls/server.key
+        - ORDERER_GENERAL_TLS_CERTIFICATE=/etc/hyperledger/msp/orderer/tls/server.crt
+        - ORDERER_GENERAL_TLS_ROOTCAS=[/etc/hyperledger/msp/orderer/tls/ca.crt]
+        # - ORDERER_GENERAL_CLUSTER_CLIENTCERTIFICATE=/etc/hyperledger/msp/orderer/tls/server.crt
+        # - ORDERER_GENERAL_CLUSTER_CLIENTPRIVATEKEY=/etc/hyperledger/msp/orderer/tls/server.key
+        working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+        command: orderer
+        ports:
+        - 7050:7050
+        volumes:
+        - ../../config/config-kafka100/:/etc/hyperledger/configtx
+        - ../../config/config-kafka100/crypto-config/ordererOrganizations/oslab.com/orderers/orderer2.oslab.com/:/etc/hyperledger/msp/orderer
+
+        extra_hosts:
+        - "ca.org1.oslab.com:10.0.0.243"
+        - "kafka0:10.0.0.246"
+        - "kafka1:10.0.0.247"
+        - "kafka2:10.0.0.248"
+        - "kafka3:10.0.0.249"

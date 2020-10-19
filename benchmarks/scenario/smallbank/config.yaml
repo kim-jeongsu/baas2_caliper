@@ -1,0 +1,35 @@
+---
+
+test:
+  name: smallbank
+  description: This is smallbank benchmark for caliper
+  clients:
+    type: local
+    number: 10
+  rounds:
+  - label: smallOperations
+    txNumber:
+    - 1000
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 100
+    arguments:
+      accounts: 100000
+      txnPerBatch: 20
+    callback: benchmarks/scenario/smallbank/smallbankOperations.js
+  - label: query
+    txNumber:
+    - 100
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 50
+    callback: benchmarks/scenario/smallbank/query.js
+
+monitor:
+  type: docker
+  docker:
+    name:
+    - all
+  interval: 1

@@ -1,0 +1,2212 @@
+2020-03-10T10:50:30+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:32+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-03-10T10:50:32+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;sleep 10s 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: Channel 'oslab' is configured as created, skipping creation 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: peer0.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: peer1.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: peer0.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: peer1.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org1.oslab.com 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org1.oslab.com 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org2.oslab.com 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org2.oslab.com 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-03-10T10:50:42+09:00 - INFO [adapters/fabric]: smallbank@v0 is already instantiated in oslab 
+
+2020-03-10T10:50:42+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-03-10T10:50:42+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-03-10T10:50:42+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46030 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46036 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46043 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46044 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46057 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46064 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46071 
+
+2020-03-10T10:50:42+09:00 - INFO [client-util.js]: Launching client with PID  46078 
+
+2020-03-10T10:50:43+09:00 - INFO [client-util.js]: Launching client with PID  46079 
+
+2020-03-10T10:50:43+09:00 - INFO [client-util.js]: Launching client with PID  46092 
+
+2020-03-10T10:50:43+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-03-10T10:50:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:50:44+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:44+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:50:44+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:44+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:44+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:44+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:44+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:44+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:44+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:44+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:45+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:45+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:45+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:45+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:50:45+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-03-10T10:50:45+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-10T10:50:45+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46092 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46043 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46057 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46079 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46064 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46071 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46078 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46030 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46036 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [local-client.js]: Info: client 46044 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:50:45+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:50:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:50:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 700 Succ: 0 Fail:0 Unfinished:700 
+
+2020-03-10T10:50:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1540 Succ: 330 Fail:0 Unfinished:1210 
+
+2020-03-10T10:50:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2510 Succ: 1030 Fail:0 Unfinished:1480 
+
+2020-03-10T10:50:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3540 Succ: 1600 Fail:0 Unfinished:1940 
+
+2020-03-10T10:50:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4120 Succ: 2360 Fail:0 Unfinished:1760 
+
+2020-03-10T10:50:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4890 Succ: 2650 Fail:0 Unfinished:2240 
+
+2020-03-10T10:50:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5830 Succ: 3600 Fail:0 Unfinished:2230 
+
+2020-03-10T10:50:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6460 Succ: 4020 Fail:0 Unfinished:2440 
+
+2020-03-10T10:50:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7390 Succ: 4860 Fail:0 Unfinished:2530 
+
+2020-03-10T10:50:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8070 Succ: 5580 Fail:0 Unfinished:2490 
+
+2020-03-10T10:50:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8900 Succ: 6090 Fail:0 Unfinished:2810 
+
+2020-03-10T10:50:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9790 Succ: 7450 Fail:0 Unfinished:2340 
+
+2020-03-10T10:50:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 8740 Fail:0 Unfinished:1260 
+
+2020-03-10T10:50:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9670 Fail:0 Unfinished:330 
+
+2020-03-10T10:51:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:01+09:00 - DEBUG [report-builder]: r.create.max: 1583805058.154 r.create.min: 1583805045.293 r.final.max: 1583805060.827 r.final.min: 1583805046.383 r.final.last: 1583805060.827 
+
+2020-03-10T10:51:01+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 643.7 
+
+2020-03-10T10:51:01+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-10T10:51:01+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-10T10:51:01+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-10T10:51:01+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-10T10:51:01+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 777.5 tps | 5.42 s      | 0.75 s      | 2.48 s      | 643.7 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-10T10:51:01+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-10T10:51:01+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.9MB      | 13.9MB      | 46.24%   | 27.76%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.1MB      | 14.1MB      | 43.12%   | 26.87%   | 8.6MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.4MB      | 13.4MB      | 42.99%   | 27.07%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 46.88%   | 26.59%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 1.9GB       | 1.8GB       | 325.61%  | 234.93%  | 49.2MB     | 21.9MB      | 0B        | 123.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 1.9GB       | 1.8GB       | 342.88%  | 248.53%  | 49.2MB     | 21.8MB      | 0B        | 122.2MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 1.9GB       | 1.8GB       | 334.09%  | 237.71%  | 49.2MB     | 22.2MB      | 0B        | 127.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 1.9GB       | 1.8GB       | 318.51%  | 236.33%  | 49.3MB     | 21.8MB      | 0B        | 122.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 2.0GB       | 1.8GB       | 154.84%  | 101.22%  | 67.4MB     | 67.5MB      | 0B        | 114.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.9GB       | 1.7GB       | 107.43%  | 63.38%   | 52.1MB     | 13.4MB      | 0B        | 114.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 2.0GB       | 1.8GB       | 127.34%  | 75.46%   | 58.1MB     | 135.3MB     | 0B        | 114.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 465.9MB     | 465.9MB     | 0.78%    | 0.47%    | 935B       | 1.4KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 1.8GB       | 1.8GB       | 4.22%    | 3.09%    | 38.9MB     | 222.6KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.9GB       | 1.8GB       | 18.26%   | 13.50%   | 39.6MB     | 194.8MB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.8GB       | 1.8GB       | 4.16%    | 2.52%    | 38.9MB     | 134.4KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 35.5MB      | 35.5MB      | 0.16%    | 0.11%    | 4.2KB      | 2.6KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.2MB      | 37.2MB      | 0.21%    | 0.13%    | 3.6KB      | 4.7KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.9MB       | 9.9MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.0MB      | 11.0MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.7MB      | 36.7MB      | 0.10%    | 0.08%    | 3.1KB      | 1.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-10T10:51:01+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-10T10:51:01+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-10T10:51:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:28+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:30+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-03-10T10:51:30+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;sleep 10s 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: Channel 'oslab' is configured as created, skipping creation 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: peer0.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: peer1.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: peer0.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: peer1.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org1.oslab.com 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org1.oslab.com 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org2.oslab.com 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org2.oslab.com 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-03-10T10:51:40+09:00 - INFO [adapters/fabric]: smallbank@v0 is already instantiated in oslab 
+
+2020-03-10T10:51:40+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-03-10T10:51:40+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-03-10T10:51:40+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-03-10T10:51:40+09:00 - INFO [client-util.js]: Launching client with PID  47739 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47745 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47752 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47759 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47762 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47773 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47781 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47788 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47795 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Launching client with PID  47802 
+
+2020-03-10T10:51:41+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-03-10T10:51:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:41+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:51:42+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:42+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:42+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:42+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:51:43+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-03-10T10:51:43+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-10T10:51:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47752 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47795 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47739 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47745 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47773 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47781 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47788 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47802 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47762 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - INFO [local-client.js]: Info: client 47759 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:51:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 660 Succ: 0 Fail:0 Unfinished:660 
+
+2020-03-10T10:51:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1490 Succ: 360 Fail:0 Unfinished:1130 
+
+2020-03-10T10:51:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2490 Succ: 890 Fail:0 Unfinished:1600 
+
+2020-03-10T10:51:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3050 Succ: 1420 Fail:0 Unfinished:1630 
+
+2020-03-10T10:51:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3970 Succ: 2120 Fail:0 Unfinished:1850 
+
+2020-03-10T10:51:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4970 Succ: 2620 Fail:0 Unfinished:2350 
+
+2020-03-10T10:51:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5840 Succ: 3580 Fail:0 Unfinished:2260 
+
+2020-03-10T10:51:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6800 Succ: 4530 Fail:0 Unfinished:2270 
+
+2020-03-10T10:51:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7410 Succ: 5150 Fail:0 Unfinished:2260 
+
+2020-03-10T10:51:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8190 Succ: 5400 Fail:0 Unfinished:2790 
+
+2020-03-10T10:51:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8790 Succ: 6270 Fail:0 Unfinished:2520 
+
+2020-03-10T10:51:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9810 Succ: 7210 Fail:0 Unfinished:2600 
+
+2020-03-10T10:51:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 8820 Fail:0 Unfinished:1180 
+
+2020-03-10T10:51:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9790 Fail:0 Unfinished:210 
+
+2020-03-10T10:51:58+09:00 - DEBUG [report-builder]: r.create.max: 1583805115.945 r.create.min: 1583805103.39 r.final.max: 1583805118.565 r.final.min: 1583805104.351 r.final.last: 1583805118.565 
+
+2020-03-10T10:51:58+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 659.0 
+
+2020-03-10T10:51:58+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-10T10:51:58+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-10T10:51:58+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-10T10:51:58+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-10T10:51:58+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 796.5 tps | 5.93 s      | 0.67 s      | 2.52 s      | 659.0 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-10T10:51:58+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-10T10:51:58+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.9MB      | 13.9MB      | 41.12%   | 25.37%   | 8.5MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.1MB      | 14.1MB      | 40.13%   | 25.80%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.4MB      | 13.4MB      | 39.79%   | 25.03%   | 8.5MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 39.78%   | 25.54%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 2.0GB       | 2.0GB       | 322.33%  | 229.91%  | 47.8MB     | 21.5MB      | 0B        | 1.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 2.0GB       | 2.0GB       | 343.28%  | 230.79%  | 48.2MB     | 21.6MB      | 0B        | 1.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 2.0GB       | 2.0GB       | 315.75%  | 221.61%  | 48.4MB     | 22.8MB      | 0B        | 1.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 2.0GB       | 2.0GB       | 319.15%  | 227.50%  | 48.3MB     | 21.6MB      | 0B        | 1.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 2.1GB       | 2.1GB       | 366.41%  | 114.22%  | 61.4MB     | 60.6MB      | 0B        | 110.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 2.0GB       | 2.0GB       | 130.39%  | 77.84%   | 53.4MB     | 15.6MB      | 0B        | 111.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 2.1GB       | 2.0GB       | 156.34%  | 76.38%   | 59.0MB     | 132.8MB     | 0B        | 111.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 465.9MB     | 465.9MB     | 0.72%    | 0.49%    | 602B       | 1008B       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 1.9GB       | 1.8GB       | 4.51%    | 3.27%    | 38.1MB     | 226.3KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.9GB       | 1.9GB       | 21.48%   | 12.66%   | 38.8MB     | 190.8MB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.9GB       | 1.8GB       | 4.44%    | 2.77%    | 38.1MB     | 139.3KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 35.5MB      | 35.5MB      | 0.11%    | 0.09%    | 4.0KB      | 2.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.2MB      | 37.2MB      | 0.18%    | 0.13%    | 3.6KB      | 4.7KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.9MB       | 9.9MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.0MB      | 11.0MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.7MB      | 36.7MB      | 0.10%    | 0.08%    | 3.1KB      | 1.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-10T10:51:58+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-10T10:51:58+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-10T10:51:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-10T10:51:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-10T10:52:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-10T10:55:38+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:39+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-03-10T10:55:39+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;sleep 10s 
+
+2020-03-10T10:55:49+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:55:49+09:00 - INFO [adapters/fabric]: Channel 'oslab' is configured as created, skipping creation 
+
+2020-03-10T10:55:49+09:00 - INFO [adapters/fabric]: peer0.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: peer1.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: peer0.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: peer1.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org1.oslab.com 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org1.oslab.com 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org2.oslab.com 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org2.oslab.com 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-03-10T10:55:50+09:00 - INFO [adapters/fabric]: smallbank@v0 is already instantiated in oslab 
+
+2020-03-10T10:55:50+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-03-10T10:55:50+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-03-10T10:55:50+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1137 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1143 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1151 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1152 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1164 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1172 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1179 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1183 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1194 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Launching client with PID  1202 
+
+2020-03-10T10:55:50+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-03-10T10:55:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:50+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:55:52+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-03-10T10:55:52+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-10T10:55:52+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1152 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1137 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1202 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1179 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1172 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1183 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1194 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1151 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1143 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - INFO [local-client.js]: Info: client 1164 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:52+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:55:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[719b81e1ea] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[3344c606d5] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[bd471ba6fe] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[391a489466] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[9f7fd3f422] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[0b2eb7687b] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[6e1675c63d] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[c757ef6698] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[1d3772b694] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[27cdb8a81a] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[a51f29bf46] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[c09fd54ef6] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[7cbe0d9816] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[b5d7d49b66] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[a9d507f218] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[630590d811] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[333d2d9cb5] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:53+09:00 - ERROR [adapters/fabric]: Transaction[dc46dae8e9] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 710 Succ: 0 Fail:0 Unfinished:710 
+
+2020-03-10T10:55:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1540 Succ: 290 Fail:0 Unfinished:1250 
+
+2020-03-10T10:55:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2410 Succ: 882 Fail:18 Unfinished:1510 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[34400f8770] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[daf5339d3e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[02891d671e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[8d80ee0b97] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[ef35e0641a] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[bb571a287e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[8ebae835db] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5a9be8a153] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[1e3844e03a] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[123c672a26] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[6cbfe7cf8b] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[44466f3932] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[0bfc093b4f] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[637afb7473] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e9555fb680] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[ee8b3cc76d] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[07be92ec08] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[36b29ef834] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[4388d56e16] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d6ff4520cf] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[51c35cb3c8] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[c6c1025bf1] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[f22c7ac328] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d1e60b344e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[129987d561] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e633178238] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[a49003a010] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[194f6962ea] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[ea0f61d11a] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e697ca0b93] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[746feb2cdb] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e4964c3a88] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[bf1dea652f] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[9571e3f067] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[991643b176] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[0dd9e5d734] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d12b4a9d8e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[634f74248d] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[79dab05885] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5b6534d556] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[0889633250] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[2d7d19d1ad] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[353b430327] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e7b39d1706] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e0af13c901] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[bc0b3417bf] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[4e05db6556] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5772b0c642] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[df1041ee93] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[b225aec792] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[1e674af865] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[c84b59c904] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[b5ea35562f] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d371cd730b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[40bd4e209b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[975507b56d] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[51f028a30b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e8ccacf06b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5cbbbc5837] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[30805e9e30] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e0baa1fa96] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[83d0a17f67] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e61560d019] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[a8d41f1d80] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[789ab21c4e] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[f6c2fa72f3] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d77b2bd595] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[a7c323eff8] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[34316e2fb6] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[01ce161166] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5f0a286d69] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e5de98fc5a] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[c39b405486] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[3c89192e3d] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e5596744a7] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[5238563799] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[1eea869e59] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[007a2cb742] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[66b6580a81] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[05261a7766] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[53c79d560e] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[659b3a06c0] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[fb08fbdff4] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[7468e62c91] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[e7970543d3] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[4eef1bfa24] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[d9b616cef1] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[bbcd7c1b70] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[38cdb08a5c] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:56+09:00 - ERROR [adapters/fabric]: Transaction[db9a2bb45a] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3290 Succ: 1632 Fail:18 Unfinished:1640 
+
+2020-03-10T10:55:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4270 Succ: 2522 Fail:98 Unfinished:1650 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[22ee673ad1] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[b93706473d] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[aa0bb9c9b5] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[90880c528f] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[f05b5f92f0] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[ccbb0b1e14] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[844d453f1e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[c4632c3875] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[528fb99f8c] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[d6812415be] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[5c31ebd5ec] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[200b8b8d38] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[f20a068a31] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[b7f9cb4ced] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:58+09:00 - ERROR [adapters/fabric]: Transaction[0308bac8eb] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[89fb7f5bd4] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[8b00fcfe8f] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[057f109969] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[cb45967b83] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[7855fcd4e7] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[e51eeb27dc] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[546f54b766] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[bffe3d57e3] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[47015003df] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[0a61a48ae1] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[ea41905042] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[9eecfea834] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[9584de9b00] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[8c5d07a1af] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[fcbd4a4c4c] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[9cdee8308b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5070 Succ: 2982 Fail:108 Unfinished:1980 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[079ce1cdba] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[5d943e2f2f] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[d3b64fbead] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[81236f5df6] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[cb8ab77469] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[f870493381] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[3d617a8dd9] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[576cc5325f] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[17efe1ce63] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:55:59+09:00 - ERROR [adapters/fabric]: Transaction[9c102bc662] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5600 Succ: 3422 Fail:148 Unfinished:2030 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[db86ae9b04] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[9b39df40b5] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[89bc0fa82e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[665d29d24f] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[6862dec0d0] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[88eb6f11b7] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[3205d80038] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[4a9508636a] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[1fb81a6f7b] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[f3905d4590] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[308571f413] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[622d919d9e] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[07e2c1f5c7] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[1ee294e683] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[7c59d8b44b] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[bee03c5c39] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[4b5dde5aad] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[375f104932] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[8e1cf57577] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[fe0dcd5e9a] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[5368b0b07c] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[65dd195bfb] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[5f8c93623c] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[e98ffa5561] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[27f820f392] life-cycle errors:
+	- Proposal response error by peer0.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer0.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[712c2bbda1] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[768b2d5f3d] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[9102b9c55b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[b67cbad788] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[49594ad930] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[c9bf5891d1] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[f1966bb594] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[92f6abdf1b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[14c3b58769] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[82239def91] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[1ff8e42365] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[5b7201eae4] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[574cbb7eed] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[6d36e01a4a] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[14d3ec65b6] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[1ad4366748] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[711ff956ea] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[6570452d9b] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[327e8bc0c6] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[1128ecb73e] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[343d10fc56] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[502e416a86] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[969008c5ae] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:00+09:00 - ERROR [adapters/fabric]: Transaction[e2bb862029] life-cycle errors:
+	- Proposal response error by peer1.org1.oslab.com: {"error":Can not create duplicated account}
+	- Proposal response error by peer1.org2.oslab.com: {"error":Can not create duplicated account} 
+
+2020-03-10T10:56:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6570 Succ: 4461 Fail:189 Unfinished:1920 
+
+2020-03-10T10:56:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7710 Succ: 5162 Fail:198 Unfinished:2350 
+
+2020-03-10T10:56:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8440 Succ: 5902 Fail:198 Unfinished:2340 
+
+2020-03-10T10:56:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9290 Succ: 6102 Fail:198 Unfinished:2990 
+
+2020-03-10T10:56:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9910 Succ: 6822 Fail:198 Unfinished:2890 
+
+2020-03-10T10:56:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 8042 Fail:198 Unfinished:1760 
+
+2020-03-10T10:56:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9052 Fail:198 Unfinished:750 
+
+2020-03-10T10:56:08+09:00 - DEBUG [report-builder]: r.create.max: 1583805364.778 r.create.min: 1583805352.491 r.final.max: 1583805367.933 r.final.min: 1583805353.471 r.final.last: 1583805367.933 
+
+2020-03-10T10:56:08+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 634.8 
+
+2020-03-10T10:56:08+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-10T10:56:08+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-10T10:56:08+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-10T10:56:08+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-10T10:56:08+09:00 - INFO [report-builder]: 
++-----------------+------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 9802 | 198  | 813.9 tps | 7.48 s      | 0.68 s      | 2.55 s      | 634.8 tps  |
++-----------------+------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-10T10:56:08+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-10T10:56:08+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.9MB      | 13.9MB      | 40.49%   | 25.20%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.1MB      | 14.1MB      | 38.24%   | 24.29%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.4MB      | 13.4MB      | 40.66%   | 24.91%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 38.58%   | 22.88%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 2.1GB       | 2.0GB       | 300.06%  | 202.62%  | 46.7MB     | 21.2MB      | 0B        | 585.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 2.1GB       | 2.0GB       | 308.79%  | 199.03%  | 46.7MB     | 21.1MB      | 0B        | 568.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 2.1GB       | 2.0GB       | 284.87%  | 189.15%  | 46.8MB     | 22.2MB      | 0B        | 568.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 2.1GB       | 2.0GB       | 318.46%  | 199.57%  | 46.7MB     | 21.1MB      | 0B        | 604.7MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 2.2GB       | 2.2GB       | 301.29%  | 115.15%  | 66.3MB     | 65.7MB      | 0B        | 109.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 2.1GB       | 2.1GB       | 115.13%  | 59.91%   | 51.8MB     | 13.8MB      | 0B        | 109.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 2.2GB       | 2.1GB       | 110.43%  | 79.48%   | 53.2MB     | 124.4MB     | 0B        | 109.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 465.8MB     | 465.8MB     | 0.82%    | 0.53%    | 602B       | 1008B       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 1.9GB       | 1.9GB       | 4.43%    | 3.36%    | 37.3MB     | 231.7KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.9GB       | 1.9GB       | 18.75%   | 13.04%   | 38.0MB     | 186.9MB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.9GB       | 1.9GB       | 3.69%    | 2.66%    | 37.3MB     | 143.4KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 35.5MB      | 35.5MB      | 0.13%    | 0.11%    | 4.0KB      | 2.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.2MB      | 37.2MB      | 0.19%    | 0.14%    | 3.6KB      | 4.7KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.9MB       | 9.9MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.1MB      | 11.1MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.7MB      | 36.7MB      | 0.13%    | 0.08%    | 3.1KB      | 1.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-10T10:56:08+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-10T10:56:08+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-10T10:56:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9802 Fail:198 Unfinished:0 
+
+2020-03-10T10:56:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9802 Fail:198 Unfinished:0 
+
+2020-03-10T10:58:42+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:43+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-03-10T10:58:43+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;sleep 10s 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: Channel 'oslab' is configured as created, skipping creation 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: peer0.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: peer1.org1.oslab.com has already joined oslab 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: peer0.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: peer1.org2.oslab.com has already joined oslab 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org1.oslab.com 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org1.oslab.com 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org2.oslab.com 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org2.oslab.com 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-03-10T10:58:53+09:00 - INFO [adapters/fabric]: smallbank@v0 is already instantiated in oslab 
+
+2020-03-10T10:58:53+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-03-10T10:58:54+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-03-10T10:58:54+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4225 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4231 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4238 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4245 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4252 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4273 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4278 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4287 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4294 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Launching client with PID  4295 
+
+2020-03-10T10:58:54+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-03-10T10:58:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-10T10:58:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-10T10:58:56+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-03-10T10:58:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-10T10:58:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4273 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4252 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4238 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4294 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4287 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4278 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4245 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4225 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4231 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - INFO [local-client.js]: Info: client 4295 start test runFixedNumber():small_bank_operations 
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-10T10:58:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-10T10:58:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 710 Succ: 0 Fail:0 Unfinished:710 
+
+2020-03-10T10:58:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1510 Succ: 370 Fail:0 Unfinished:1140 
+
+2020-03-10T10:59:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2440 Succ: 1010 Fail:0 Unfinished:1430 
+
+2020-03-10T10:59:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3400 Succ: 1670 Fail:0 Unfinished:1730 
+
+2020-03-10T10:59:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4300 Succ: 2340 Fail:0 Unfinished:1960 
+
+2020-03-10T10:59:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5140 Succ: 3070 Fail:0 Unfinished:2070 
+
+2020-03-10T10:59:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5890 Succ: 3690 Fail:0 Unfinished:2200 
+
+2020-03-10T10:59:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6800 Succ: 4560 Fail:0 Unfinished:2240 
+
+2020-03-10T10:59:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7640 Succ: 5230 Fail:0 Unfinished:2410 
+
+2020-03-10T10:59:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8280 Succ: 5890 Fail:0 Unfinished:2390 
+
+2020-03-10T10:59:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9100 Succ: 6580 Fail:0 Unfinished:2520 
+
+2020-03-10T10:59:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9840 Succ: 7300 Fail:0 Unfinished:2540 
+
+2020-03-10T10:59:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 8710 Fail:0 Unfinished:1290 
+
+2020-03-10T10:59:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9890 Fail:0 Unfinished:110 
+
+2020-03-10T10:59:11+09:00 - DEBUG [report-builder]: r.create.max: 1583805548.831 r.create.min: 1583805536.288 r.final.max: 1583805551.323 r.final.min: 1583805537.316 r.final.last: 1583805551.323 
+
+2020-03-10T10:59:11+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 665.1 
+
+2020-03-10T10:59:11+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-10T10:59:11+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-10T10:59:11+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-10T10:59:11+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-10T10:59:11+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 797.3 tps | 5.87 s      | 0.82 s      | 2.40 s      | 665.1 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-10T10:59:11+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-10T10:59:11+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.9MB      | 13.9MB      | 42.00%   | 25.03%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.1MB      | 14.1MB      | 41.99%   | 24.67%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.4MB      | 13.4MB      | 43.49%   | 25.16%   | 8.6MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 36.81%   | 22.37%   | 8.4MB      | 4.3MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 2.1GB       | 2.1GB       | 309.38%  | 222.06%  | 49.4MB     | 22.1MB      | 0B        | 514.6MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 2.1GB       | 2.1GB       | 309.95%  | 227.09%  | 49.3MB     | 22.1MB      | 0B        | 511.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 2.1GB       | 2.1GB       | 287.92%  | 219.35%  | 49.3MB     | 22.7MB      | 0B        | 516.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 2.1GB       | 2.1GB       | 287.47%  | 215.63%  | 49.3MB     | 22.1MB      | 0B        | 512.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 2.2GB       | 2.2GB       | 136.26%  | 100.32%  | 63.8MB     | 64.0MB      | 0B        | 115.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 2.1GB       | 2.1GB       | 140.27%  | 75.01%   | 56.3MB     | 17.6MB      | 0B        | 115.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 2.2GB       | 2.2GB       | 154.87%  | 90.89%   | 57.6MB     | 134.9MB     | 0B        | 115.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 465.8MB     | 465.8MB     | 0.83%    | 0.57%    | 602B       | 1008B       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 1.9GB       | 1.9GB       | 3.89%    | 3.35%    | 38.9MB     | 230.3KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 2.0GB       | 1.9GB       | 15.31%   | 10.47%   | 39.6MB     | 194.8MB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.9GB       | 1.9GB       | 3.19%    | 2.53%    | 38.9MB     | 145.0KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 35.5MB      | 35.5MB      | 0.15%    | 0.12%    | 3.9KB      | 2.4KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.2MB      | 37.2MB      | 0.20%    | 0.16%    | 3.4KB      | 4.4KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 10.1MB      | 10.1MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.1MB      | 11.1MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.7MB      | 36.7MB      | 0.11%    | 0.09%    | 2.9KB      | 1.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-10T10:59:11+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-10T10:59:11+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-10T10:59:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+

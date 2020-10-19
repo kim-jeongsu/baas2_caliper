@@ -1,0 +1,932 @@
+2020-02-11T14:21:45+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:21:46+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-02-11T14:21:46+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=raft300; export FABRIC_VERSION=1.4.1;docker-compose -f networks/fabric-v1.4/docker-compose/raft300/docker-compose-local.yaml up -d;sleep 2s 
+
+2020-02-11T14:22:00+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Org1's registrar enrolled successfully 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Org2's registrar enrolled successfully 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Org1's admin's materials are successfully loaded 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Org2's admin's materials are successfully loaded 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: client0.org1.oslab.com's materials are successfully loaded 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: client0.org2.oslab.com's materials are successfully loaded 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Channel 'oslab' definiton being retrieved from file 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Channel 'oslab' successfully created 
+
+2020-02-11T14:22:01+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-11T14:22:06+09:00 - INFO [adapters/fabric]: Org1's peers successfully joined oslab: peer0.org1.oslab.com,peer1.org1.oslab.com 
+
+2020-02-11T14:22:07+09:00 - INFO [adapters/fabric]: Org2's peers successfully joined oslab: peer0.org2.oslab.com,peer1.org2.oslab.com 
+
+2020-02-11T14:22:07+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-11T14:22:12+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-02-11T14:22:12+09:00 - INFO [adapters/fabric]: smallbank@v0 successfully installed on Org1's peers: peer0.org1.oslab.com,peer1.org1.oslab.com 
+
+2020-02-11T14:22:12+09:00 - INFO [adapters/fabric]: smallbank@v0 successfully installed on Org2's peers: peer0.org2.oslab.com,peer1.org2.oslab.com 
+
+2020-02-11T14:22:12+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-02-11T14:22:19+09:00 - INFO [adapters/fabric]: Successfully instantiated smallbank@v0 in oslab 
+
+2020-02-11T14:22:19+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-11T14:22:24+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-02-11T14:22:24+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-02-11T14:22:24+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46510 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46516 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46523 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46529 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46531 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46543 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46551 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46558 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46565 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Launching client with PID  46572 
+
+2020-02-11T14:22:24+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-02-11T14:22:25+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:24+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:24+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:24+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:25+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-11T14:22:26+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-11T14:22:26+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-11T14:22:26+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":700}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:26+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46551 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46565 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46531 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46558 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46529 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46543 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46516 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46523 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46510 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - INFO [local-client.js]: Info: client 46572 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:22:27+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":700}}
+
+2020-02-11T14:22:27+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-11T14:22:28+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 600 Succ: 0 Fail:0 Unfinished:600 
+
+2020-02-11T14:22:29+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1300 Succ: 460 Fail:0 Unfinished:840 
+
+2020-02-11T14:22:30+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2070 Succ: 1190 Fail:0 Unfinished:880 
+
+2020-02-11T14:22:31+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2800 Succ: 1890 Fail:0 Unfinished:910 
+
+2020-02-11T14:22:32+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3550 Succ: 2650 Fail:0 Unfinished:900 
+
+2020-02-11T14:22:33+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4270 Succ: 3350 Fail:0 Unfinished:920 
+
+2020-02-11T14:22:34+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4920 Succ: 3960 Fail:0 Unfinished:960 
+
+2020-02-11T14:22:35+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5690 Succ: 4760 Fail:0 Unfinished:930 
+
+2020-02-11T14:22:36+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6390 Succ: 5450 Fail:0 Unfinished:940 
+
+2020-02-11T14:22:37+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7100 Succ: 6150 Fail:0 Unfinished:950 
+
+2020-02-11T14:22:38+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7830 Succ: 6890 Fail:0 Unfinished:940 
+
+2020-02-11T14:22:39+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8530 Succ: 7590 Fail:0 Unfinished:940 
+
+2020-02-11T14:22:40+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9230 Succ: 8260 Fail:0 Unfinished:970 
+
+2020-02-11T14:22:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9930 Succ: 9010 Fail:0 Unfinished:920 
+
+2020-02-11T14:22:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10630 Succ: 9690 Fail:0 Unfinished:940 
+
+2020-02-11T14:22:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 11330 Succ: 10280 Fail:0 Unfinished:1050 
+
+2020-02-11T14:22:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 12050 Succ: 10890 Fail:0 Unfinished:1160 
+
+2020-02-11T14:22:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 12750 Succ: 11540 Fail:0 Unfinished:1210 
+
+2020-02-11T14:22:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 13450 Succ: 12210 Fail:0 Unfinished:1240 
+
+2020-02-11T14:22:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 14150 Succ: 12920 Fail:0 Unfinished:1230 
+
+2020-02-11T14:22:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 14890 Succ: 13660 Fail:0 Unfinished:1230 
+
+2020-02-11T14:22:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 15600 Succ: 14210 Fail:0 Unfinished:1390 
+
+2020-02-11T14:22:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 16300 Succ: 14940 Fail:0 Unfinished:1360 
+
+2020-02-11T14:22:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 17000 Succ: 15670 Fail:0 Unfinished:1330 
+
+2020-02-11T14:22:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 17700 Succ: 16300 Fail:0 Unfinished:1400 
+
+2020-02-11T14:22:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 18400 Succ: 17040 Fail:0 Unfinished:1360 
+
+2020-02-11T14:22:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19100 Succ: 17550 Fail:0 Unfinished:1550 
+
+2020-02-11T14:22:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19820 Succ: 18260 Fail:0 Unfinished:1560 
+
+2020-02-11T14:22:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 18990 Fail:0 Unfinished:1010 
+
+2020-02-11T14:22:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:22:57+09:00 - DEBUG [report-builder]: r.create.max: 1581398575.649 r.create.min: 1581398547.093 r.final.max: 1581398577.717 r.final.min: 1581398547.93 r.final.last: 1581398577.717 
+
+2020-02-11T14:22:57+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 653.1 
+
+2020-02-11T14:22:57+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-11T14:22:57+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-11T14:22:57+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-11T14:22:57+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-11T14:22:57+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 20000 | 0    | 700.4 tps | 2.61 s      | 0.60 s      | 1.59 s      | 653.1 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-11T14:22:57+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-11T14:22:57+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.5MB      | 12.4MB      | 34.51%   | 26.63%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 12.9MB      | 11.7MB      | 35.75%   | 27.31%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.3MB      | 11.9MB      | 36.19%   | 27.26%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.0MB      | 11.7MB      | 36.80%   | 26.39%   | 35.9MB     | 18.1MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 531.7MB     | 359.0MB     | 313.79%  | 251.19%  | 156.4MB    | 73.0MB      | 0B        | 1.1GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 523.3MB     | 360.2MB     | 297.63%  | 252.57%  | 156.5MB    | 73.2MB      | 0B        | 1.1GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 532.8MB     | 357.6MB     | 306.45%  | 251.83%  | 156.4MB    | 73.0MB      | 0B        | 1.1GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 527.3MB     | 361.5MB     | 314.72%  | 248.43%  | 156.5MB    | 74.6MB      | 0B        | 1.1GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 883.6MB     | 602.0MB     | 130.87%  | 81.31%   | 170.8MB    | 406.5MB     | 0B        | 695.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 885.4MB     | 577.7MB     | 100.80%  | 71.82%   | 169.3MB    | 173.3MB     | 0B        | 695.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 852.4MB     | 544.9MB     | 97.91%   | 70.56%   | 130.5MB    | 249.3MB     | 0B        | 695.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.5MB      | 11.5MB      | 0.00%    | 0.00%    | 191B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.6MB      | 11.6MB      | 0.00%    | 0.00%    | 191B       | 0B          | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-11T14:22:57+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-11T14:22:57+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-02-11T14:22:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:22:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:02+09:00 - INFO [defaultTest]: ------ Test round 2 ------ 
+
+2020-02-11T14:23:02+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-02-11T14:23:02+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-11T14:23:02+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46510 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46558 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46523 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46531 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46543 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46529 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:02+09:00 - INFO [local-client.js]: Info: client 46565 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:03+09:00 - INFO [local-client.js]: Info: client 46551 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:03+09:00 - INFO [local-client.js]: Info: client 46516 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:02+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:03+09:00 - INFO [local-client.js]: Info: client 46572 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:03+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:03+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:03+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#2
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-11T14:23:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20800 Succ: 20420 Fail:0 Unfinished:380 
+
+2020-02-11T14:23:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 21610 Succ: 20990 Fail:0 Unfinished:620 
+
+2020-02-11T14:23:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 22420 Succ: 21500 Fail:0 Unfinished:920 
+
+2020-02-11T14:23:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 23230 Succ: 22160 Fail:0 Unfinished:1070 
+
+2020-02-11T14:23:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 24040 Succ: 22860 Fail:0 Unfinished:1180 
+
+2020-02-11T14:23:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 24840 Succ: 23470 Fail:0 Unfinished:1370 
+
+2020-02-11T14:23:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 25680 Succ: 24140 Fail:0 Unfinished:1540 
+
+2020-02-11T14:23:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 26500 Succ: 24580 Fail:0 Unfinished:1920 
+
+2020-02-11T14:23:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 27310 Succ: 25240 Fail:0 Unfinished:2070 
+
+2020-02-11T14:23:13+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 28110 Succ: 25920 Fail:0 Unfinished:2190 
+
+2020-02-11T14:23:14+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 28910 Succ: 26680 Fail:0 Unfinished:2230 
+
+2020-02-11T14:23:15+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 29730 Succ: 27460 Fail:0 Unfinished:2270 
+
+2020-02-11T14:23:16+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30550 Succ: 27900 Fail:0 Unfinished:2650 
+
+2020-02-11T14:23:17+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 31360 Succ: 28450 Fail:0 Unfinished:2910 
+
+2020-02-11T14:23:18+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 32190 Succ: 29160 Fail:0 Unfinished:3030 
+
+2020-02-11T14:23:19+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 33010 Succ: 29850 Fail:0 Unfinished:3160 
+
+2020-02-11T14:23:20+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 33840 Succ: 30580 Fail:0 Unfinished:3260 
+
+2020-02-11T14:23:21+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 34650 Succ: 31200 Fail:0 Unfinished:3450 
+
+2020-02-11T14:23:22+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 35450 Succ: 31640 Fail:0 Unfinished:3810 
+
+2020-02-11T14:23:23+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 36250 Succ: 32360 Fail:0 Unfinished:3890 
+
+2020-02-11T14:23:24+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 37060 Succ: 33090 Fail:0 Unfinished:3970 
+
+2020-02-11T14:23:25+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 37890 Succ: 33780 Fail:0 Unfinished:4110 
+
+2020-02-11T14:23:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 38700 Succ: 34420 Fail:0 Unfinished:4280 
+
+2020-02-11T14:23:27+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 39510 Succ: 34830 Fail:0 Unfinished:4680 
+
+2020-02-11T14:23:28+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 35470 Fail:0 Unfinished:4530 
+
+2020-02-11T14:23:29+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 36210 Fail:0 Unfinished:3790 
+
+2020-02-11T14:23:30+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 37000 Fail:0 Unfinished:3000 
+
+2020-02-11T14:23:31+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 37720 Fail:0 Unfinished:2280 
+
+2020-02-11T14:23:32+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 38270 Fail:0 Unfinished:1730 
+
+2020-02-11T14:23:33+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 38780 Fail:0 Unfinished:1220 
+
+2020-02-11T14:23:34+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 39770 Fail:0 Unfinished:230 
+
+2020-02-11T14:23:35+09:00 - DEBUG [report-builder]: r.create.max: 1581398608.113 r.create.min: 1581398582.999 r.final.max: 1581398614.901 r.final.min: 1581398583.338 r.final.last: 1581398614.901 
+
+2020-02-11T14:23:35+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 626.9 
+
+2020-02-11T14:23:35+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-11T14:23:35+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-11T14:23:35+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-11T14:23:35+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-11T14:23:35+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 20000 | 0    | 796.4 tps | 7.44 s      | 0.31 s      | 3.94 s      | 626.9 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-11T14:23:35+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-11T14:23:35+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.0MB      | 13.9MB      | 41.04%   | 28.16%   | 33.6MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 14.1MB      | 13.6MB      | 38.57%   | 27.41%   | 33.8MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.6MB      | 13.5MB      | 38.05%   | 27.64%   | 33.8MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.4MB      | 13.3MB      | 40.69%   | 28.38%   | 33.6MB     | 16.8MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 695.7MB     | 622.3MB     | 302.81%  | 262.78%  | 148.1MB    | 68.9MB      | 0B        | 2.4GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 695.2MB     | 620.2MB     | 295.19%  | 258.07%  | 149.1MB    | 69.1MB      | 0B        | 2.4GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 700.8MB     | 620.1MB     | 320.46%  | 274.53%  | 149.0MB    | 69.2MB      | 0B        | 2.4GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 698.0MB     | 617.8MB     | 299.41%  | 257.44%  | 148.4MB    | 68.9MB      | 0B        | 2.4GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1021.6MB    | 966.1MB     | 137.42%  | 81.30%   | 160.5MB    | 384.9MB     | 0B        | 665.7MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.0GB       | 975.7MB     | 124.92%  | 78.50%   | 161.8MB    | 165.8MB     | 0B        | 668.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 989.1MB     | 934.4MB     | 122.62%  | 81.48%   | 124.2MB    | 237.9MB     | 0B        | 665.7MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.5MB      | 11.5MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.6MB      | 11.6MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-11T14:23:35+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-11T14:23:35+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-02-11T14:23:35+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:36+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:37+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:38+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:39+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:40+09:00 - INFO [defaultTest]: ------ Test round 3 ------ 
+
+2020-02-11T14:23:40+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-02-11T14:23:40+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-11T14:23:40+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org4peer_raft_batch_300/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46551 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46558 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46531 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46516 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46523 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46572 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46529 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46565 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46510 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - INFO [local-client.js]: Info: client 46543 start test runFixedNumber():small_bank_operations 
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#3
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-11T14:23:40+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-11T14:23:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40900 Succ: 40430 Fail:0 Unfinished:470 
+
+2020-02-11T14:23:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 41790 Succ: 41200 Fail:0 Unfinished:590 
+
+2020-02-11T14:23:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 42710 Succ: 41650 Fail:0 Unfinished:1060 
+
+2020-02-11T14:23:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 43600 Succ: 42070 Fail:0 Unfinished:1530 
+
+2020-02-11T14:23:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 44540 Succ: 42690 Fail:0 Unfinished:1850 
+
+2020-02-11T14:23:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 45500 Succ: 43410 Fail:0 Unfinished:2090 
+
+2020-02-11T14:23:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 46370 Succ: 44180 Fail:0 Unfinished:2190 
+
+2020-02-11T14:23:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 47330 Succ: 44870 Fail:0 Unfinished:2460 
+
+2020-02-11T14:23:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 48270 Succ: 45200 Fail:0 Unfinished:3070 
+
+2020-02-11T14:23:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 49200 Succ: 45540 Fail:0 Unfinished:3660 
+
+2020-02-11T14:23:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 50160 Succ: 46240 Fail:0 Unfinished:3920 
+
+2020-02-11T14:23:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 51100 Succ: 46900 Fail:0 Unfinished:4200 
+
+2020-02-11T14:23:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 51890 Succ: 47430 Fail:0 Unfinished:4460 
+
+2020-02-11T14:23:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 52830 Succ: 48210 Fail:0 Unfinished:4620 
+
+2020-02-11T14:23:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 53810 Succ: 48730 Fail:0 Unfinished:5080 
+
+2020-02-11T14:23:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 54650 Succ: 49110 Fail:0 Unfinished:5540 
+
+2020-02-11T14:23:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 55250 Succ: 49610 Fail:0 Unfinished:5640 
+
+2020-02-11T14:23:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 56080 Succ: 50330 Fail:0 Unfinished:5750 
+
+2020-02-11T14:23:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 56910 Succ: 50970 Fail:0 Unfinished:5940 
+
+2020-02-11T14:24:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 57790 Succ: 51510 Fail:0 Unfinished:6280 
+
+2020-02-11T14:24:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 58740 Succ: 52120 Fail:0 Unfinished:6620 
+
+2020-02-11T14:24:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 59590 Succ: 52510 Fail:0 Unfinished:7080 
+
+2020-02-11T14:24:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 53150 Fail:0 Unfinished:6850 
+
+2020-02-11T14:24:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 53790 Fail:0 Unfinished:6210 
+
+2020-02-11T14:24:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 54530 Fail:0 Unfinished:5470 
+
+2020-02-11T14:24:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 55320 Fail:0 Unfinished:4680 
+
+2020-02-11T14:24:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 55620 Fail:0 Unfinished:4380 
+
+2020-02-11T14:24:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 56060 Fail:0 Unfinished:3940 
+
+2020-02-11T14:24:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 56720 Fail:0 Unfinished:3280 
+
+2020-02-11T14:24:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 57480 Fail:0 Unfinished:2520 
+
+2020-02-11T14:24:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 58260 Fail:0 Unfinished:1740 
+
+2020-02-11T14:24:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 58870 Fail:0 Unfinished:1130 
+
+2020-02-11T14:24:13+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59490 Fail:0 Unfinished:510 
+
+2020-02-11T14:24:14+09:00 - DEBUG [report-builder]: r.create.max: 1581398642.798 r.create.min: 1581398620.166 r.final.max: 1581398654.3 r.final.min: 1581398620.477 r.final.last: 1581398654.3 
+
+2020-02-11T14:24:14+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 585.9 
+
+2020-02-11T14:24:14+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-11T14:24:14+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-11T14:24:14+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 20000 | 0    | 883.7 tps | 12.63 s     | 0.28 s      | 6.10 s      | 585.9 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.0MB      | 14.0MB      | 46.51%   | 30.22%   | 33.3MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 14.1MB      | 14.0MB      | 45.29%   | 29.86%   | 33.1MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 14.1MB      | 14.0MB      | 46.42%   | 30.34%   | 33.2MB     | 16.9MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.5MB      | 13.5MB      | 46.16%   | 29.88%   | 33.1MB     | 16.8MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 866.4MB     | 781.5MB     | 313.22%  | 257.55%  | 145.1MB    | 67.2MB      | 0B        | 3.3GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 846.7MB     | 777.6MB     | 322.34%  | 255.63%  | 144.6MB    | 66.9MB      | 0B        | 3.1GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 856.1MB     | 776.7MB     | 306.43%  | 260.81%  | 144.6MB    | 67.0MB      | 0B        | 3.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 858.6MB     | 789.8MB     | 313.74%  | 255.98%  | 144.3MB    | 66.5MB      | 0B        | 3.2GB      |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.1GB       | 1.1GB       | 148.85%  | 75.80%   | 156.9MB    | 375.1MB     | 0B        | 649.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.1GB       | 1.1GB       | 145.93%  | 79.26%   | 159.9MB    | 163.4MB     | 0B        | 650.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.1GB       | 1.0GB       | 135.85%  | 78.35%   | 120.5MB    | 230.4MB     | 0B        | 658.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.6MB      | 11.5MB      | 0.43%    | 0.03%    | 177B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.7MB      | 11.6MB      | 0.50%    | 0.04%    | 107B       | 0B          | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-11T14:24:14+09:00 - INFO [caliper-flow]: ---------- Finished Test ----------
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: ###all test results:### 
+
+2020-02-11T14:24:14+09:00 - INFO [report-builder]: 
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Test | Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 1    | smallOperations | 20000 | 0    | 700.4 tps | 2.61 s      | 0.60 s      | 1.59 s      | 653.1 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 2    | smallOperations | 20000 | 0    | 796.4 tps | 7.44 s      | 0.31 s      | 3.94 s      | 626.9 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 3    | smallOperations | 20000 | 0    | 883.7 tps | 12.63 s     | 0.28 s      | 6.10 s      | 585.9 tps  |
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [monitor.js]: 
+ ### resource stats (maximum) ### 
+
+2020-02-11T14:24:14+09:00 - INFO [monitor.js]: 
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | CPU(max) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.0MB      | 46.51%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 14.1MB      | 45.29%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 14.1MB      | 46.42%   | 36.0MB     | 18.2MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.5MB      | 46.16%   | 35.9MB     | 18.1MB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 866.4MB     | 313.79%  | 156.5MB    | 73.4MB      | 0B        | 3.3GB      |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 846.7MB     | 322.34%  | 156.6MB    | 73.3MB      | 0B        | 3.1GB      |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 856.1MB     | 320.46%  | 156.5MB    | 73.3MB      | 0B        | 3.2GB      |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 858.6MB     | 314.72%  | 156.6MB    | 74.8MB      | 0B        | 3.2GB      |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.1GB       | 148.85%  | 170.8MB    | 406.6MB     | 0B        | 695.5MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.1GB       | 145.93%  | 169.3MB    | 173.4MB     | 0B        | 695.5MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.1GB       | 135.85%  | 130.5MB    | 249.4MB     | 0B        | 695.5MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.6MB      | 0.43%    | 261B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.7MB      | 0.50%    | 191B       | 0B          | 0B        | 0B         |
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [caliper-flow]: Generated report with path /home/oslab/go/src/github.com/consensus/caliper/report-20200211T052414.html 
+
+2020-02-11T14:24:14+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 60000 Fail:0 Unfinished:0 
+
+2020-02-11T14:24:14+09:00 - INFO [caliper-flow]: 
+
+#######################################
+# Test summary: 3 succeeded, 0 failed #
+#######################################
+ 
+
+2020-02-11T14:24:14+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;docker-compose -f networks/fabric-v1.4/docker-compose/raft300/docker-compose-local.yaml down;sleep 1s; 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-11T14:24:14+09:00 - INFO [client-util.js]: Client exited with code null 
+

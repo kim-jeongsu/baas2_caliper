@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+    zookeeper0:
+      container_name: zookeeper0
+      image: hyperledger/fabric-zookeeper:latest
+      restart: always
+      ports:
+      - '2181'
+      - '2888'
+      - '3888'
+      environment:
+      - ZOO_MY_ID=1
+      - ZOO_SERVERS=server.1=192.168.0.137:2888:3888 server.2=192.168.0.139:2888:3888 server.3=192.168.0.138:2888:3888

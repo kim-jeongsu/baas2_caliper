@@ -1,0 +1,28 @@
+version: '2'
+
+services:
+    kafka0:
+      container_name: kafka0
+      network_mode: host
+      image: hyperledger/fabric-kafka:latest
+      restart: always
+      environment:
+      - KAFKA_MESSAGE_MAX_BYTES=157286400 # 1 * 1024 * 1024 B
+      - KAFKA_REPLICA_FETCH_MAX_BYTES=157286400 # 1 * 1024 * 1024 B
+      - KAFKA_UNCLEAN_LEADER_ELECTION_ENABLE=true
+      # - KAFKA_ADVERTISED_LISTENERS=PLAINTEXT://10.0.0.246
+      # - KAFAK_LISTENERS=PLAINTEXT://10.0.0.246
+      - KAFKA_LOG4J_ROOT_LOGLEVEL=ERROR
+      - KAFKA_TOOLS_LOG4J_LOGLEVEL=ERROR
+      - KAFKA_ADVERTISED_HOST_NAME=10.0.0.246
+      - KAFKA_ADVERTISED_PORT=9092
+      - KAFKA_BROKER_ID=0
+      - KAFKA_MIN_INSYNC_REPLICAS=2
+      - KAFKA_DEFAULT_REPLICATION_FACTOR=3
+      - KAFKA_ZOOKEEPER_CONNECT=zookeeper0:2181,zookeeper1:2181,zookeeper2:2181
+      ports:
+      - '9092'
+      extra_hosts:
+      - zookeeper0:10.0.0.250
+      - zookeeper1:10.0.0.251
+      - zookeeper2:10.0.0.252

@@ -1,0 +1,49 @@
+---
+test:
+  name: smallbank
+  description: This is smallbank benchmark for caliper
+  clients:
+    type: local
+    number: 2
+  rounds:
+  - label: smallOperations
+    txNumber:
+    - 1000
+    - 1000
+    - 1000
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 300
+    - type: fixed-rate
+      opts:
+        tps: 400
+    - type: fixed-rate
+      opts:
+        tps: 500
+    arguments:
+      accounts: 50000
+      txnPerBatch: 10
+    callback: benchmarks/scenario/smallbank/smallbankOperations.js
+  - label: query
+    txNumber:
+    - 1000
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 50
+    callback: benchmarks/scenario/smallbank/query.js
+monitor:
+  type: docker
+  docker:
+    containers:
+    - https://192.168.0.144:2375/orderer0.oslab.com
+    - https://192.168.0.145:2375/orderer1.oslab.com
+    - https://192.168.0.146:2375/orderer2.oslab.com
+    - https://192.168.0.140:2375/peer0.org1.oslab.com
+    - https://192.168.0.141:2375/peer1.org1.oslab.com
+    - https://192.168.0.142:2375/peer0.org2.oslab.com
+    - https://192.168.0.143:2375/peer1.org2.oslab.com
+    - https://192.168.0.153:2375/ca.org1.oslab.com
+    - https://192.168.0.135:2375/ca.org2.oslab.com
+  interval: 1

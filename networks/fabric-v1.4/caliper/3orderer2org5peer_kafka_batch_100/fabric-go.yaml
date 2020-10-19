@@ -1,0 +1,185 @@
+name: Fabric
+version: "1.0"
+mutual-tls: false
+
+caliper:
+        blockchain: fabric
+        command:
+                start: export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1; sleep 10s
+                end: sleep 1s;
+                
+
+info: 
+        Version: 1.4.1
+        Size: 2 Orgs with 4 Peers
+        Orderer: Kafka
+        Distribution: Single Host
+        StateDB: GoLevelDB
+
+clients:
+        client0.org1.oslab.com:
+                client:
+                        organization: Org1
+                        credentialStore:
+                                path: /tmp/batch100-kvs/org1
+                                cryptoStore:
+                                        path: /tmp/batch100-cvs/org1
+                        clientPrivateKey:
+                                path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/User1@org1.oslab.com/msp/keystore/client1_key
+                                
+                        clientSignedCert:
+                                path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/User1@org1.oslab.com/msp/signcerts/User1@org1.oslab.com-cert.pem
+        client0.org2.oslab.com:
+                client:
+                        organization: Org2
+                        credentialStore:
+                                path: /tmp/batch100-kvs/org2
+                                cryptoStore:
+                                        path: /tmp/batch100-cvs/org2
+                        clientPrivateKey:
+                                path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/users/User1@org2.oslab.com/msp/keystore/client2_key
+                                
+                        clientSignedCert:
+                                path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/users/User1@org2.oslab.com/msp/signcerts/User1@org2.oslab.com-cert.pem
+
+
+channels:
+        oslab:
+                configBinary: networks/fabric-v1.4/config/config-kafka100/channel-artifacts/channel.tx
+                created: false
+                orderers: 
+                - orderer0.oslab.com
+                - orderer1.oslab.com
+                - orderer2.oslab.com
+                
+                peers:
+                        peer0.org1.oslab.com:
+                                eventSource: true
+                        peer1.org1.oslab.com:
+                                eventSource: true
+                        peer0.org2.oslab.com:
+                                eventSource: true
+                        peer1.org2.oslab.com:
+                                eventSource: true
+
+                chaincodes:
+                - id: smallbank
+                  version: v0
+                  language: golang
+                  path: fabric/scenario/smallbank/go
+ 
+organizations:
+        Org1:
+                mspid: Org1MSP
+                peers:
+                - peer0.org1.oslab.com
+                - peer1.org1.oslab.com
+                certificateAuthorities:
+                - ca.org1.oslab.com
+                adminPrivateKey:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/Admin@org1.oslab.com/msp/keystore/org1_key
+                signedCert:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/Admin@org1.oslab.com/msp/signcerts/Admin@org1.oslab.com-cert.pem
+
+        Org2:
+                mspid: Org2MSP
+                peers:
+                - peer0.org2.oslab.com
+                - peer1.org2.oslab.com
+                certificateAuthorities:
+                - ca.org2.oslab.com
+                adminPrivateKey:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/users/Admin@org2.oslab.com/msp/keystore/org2_key
+                        # path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/Admin@org1.oslab.com/msp/keystore/40021544cb102e39fdc3f5f35a6e749c96c1cbc9689694a2d4a5e01c6afdcf2f_sk
+                signedCert:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/users/Admin@org2.oslab.com/msp/signcerts/Admin@org2.oslab.com-cert.pem
+
+                        # path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/users/Admin@org1.oslab.com/msp/signcerts/Admin@org1.oslab.com-cert.pem
+orderers:
+        orderer0.oslab.com:
+                url: grpcs://10.0.0.236:7050
+                grpcOptions:
+                        ssl-target-name-override: orderer0.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/ordererOrganizations/oslab.com/orderers/orderer0.oslab.com/msp/tlscacerts/tlsca.oslab.com-cert.pem
+        
+        orderer1.oslab.com:
+                url: grpcs://10.0.0.237:7050
+                grpcOptions:
+                        ssl-target-name-override: orderer1.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/ordererOrganizations/oslab.com/orderers/orderer1.oslab.com/msp/tlscacerts/tlsca.oslab.com-cert.pem
+
+        orderer2.oslab.com:
+                url: grpcs://10.0.0.238:7050
+                grpcOptions:
+                        ssl-target-name-override: orderer2.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/ordererOrganizations/oslab.com/orderers/orderer2.oslab.com/msp/tlscacerts/tlsca.oslab.com-cert.pem
+
+peers:
+        peer0.org1.oslab.com:
+                url: grpcs://10.0.0.239:7051
+                grpcOptions:
+                        ssl-target-name-override: peer0.org1.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                        # grpc.keepalive_time_ms: 300s
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/peers/peer0.org1.oslab.com/msp/tlscacerts/tlsca.org1.oslab.com-cert.pem
+        
+        peer1.org1.oslab.com:
+                url: grpcs://10.0.0.240:7051
+                grpcOptions:
+                        ssl-target-name-override: peer1.org1.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                        # grpc.keepalive_time_ms: 300s
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/peers/peer1.org1.oslab.com/msp/tlscacerts/tlsca.org1.oslab.com-cert.pem
+
+        peer0.org2.oslab.com:
+                url: grpcs://10.0.0.241:7051
+                grpcOptions:
+                        ssl-target-name-override: peer0.org2.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                        # grpc.keepalive_time_ms: 300s
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/peers/peer0.org2.oslab.com/msp/tlscacerts/tlsca.org2.oslab.com-cert.pem
+
+        peer1.org2.oslab.com:
+                url: grpcs://10.0.0.242:7051
+                grpcOptions:
+                        ssl-target-name-override: peer1.org2.oslab.com
+                        grpc.keepalive_time_ms: 6000000
+                        # grpc.keepalive_time_ms: 300s
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/peers/peer1.org2.oslab.com/msp/tlscacerts/tlsca.org2.oslab.com-cert.pem
+
+certificateAuthorities:
+        ca.org1.oslab.com:
+                url: https://10.0.0.243:7054
+                httpOptions:
+                        verify: false
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org1.oslab.com/tlsca/tlsca.org1.oslab.com-cert.pem
+                        # path: networks/fabric/config_raft/crypto-config/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
+                registrar:
+                - enrollId: admin    
+                  enrollSecret: adminpw
+
+        ca.org2.oslab.com:
+                url: https://10.0.0.244:7054
+                httpOptions:
+                        verify: false
+                tlsCACerts:
+                        path: networks/fabric-v1.4/config/config-kafka100/crypto-config/peerOrganizations/org2.oslab.com/tlsca/tlsca.org2.oslab.com-cert.pem
+                        # path: networks/fabric/config_raft/crypto-config/peerOrganizations/org1.example.com/tlsca/tlsca.org1.example.com-cert.pem
+                registrar:
+                - enrollId: admin    
+                  enrollSecret: adminpw
+
+        
+
+        

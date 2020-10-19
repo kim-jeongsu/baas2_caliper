@@ -1,0 +1,41 @@
+---
+test:
+  name: smallbank
+  description: This is smallbank benchmark for caliper
+  clients:
+    type: local
+    number: 4
+  rounds:
+  - label: smallOperations
+    txNumber:
+    - 10000
+    - 10000
+    - 10000
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 300
+    - type: fixed-rate
+      opts:
+        tps: 400
+    - type: fixed-rate
+      opts:
+        tps: 500
+    arguments:
+      accounts: 50000
+      txnPerBatch: 10
+    callback: benchmarks/scenario/smallbank/smallbankOperations.js
+  - label: query
+    txNumber:
+    - 1000
+    rateControl:
+    - type: fixed-rate
+      opts:
+        tps: 50
+    callback: benchmarks/scenario/smallbank/query.js
+monitor:
+  type:
+  - prometheus
+  prometheus:  
+	url: "http://localhost:9090"
+	push_url: "http://localhost:9091"

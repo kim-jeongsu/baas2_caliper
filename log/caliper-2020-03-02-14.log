@@ -1,0 +1,1042 @@
+2020-03-02T14:06:42+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:43+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-03-02T14:06:43+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;sleep 10s 
+
+2020-03-02T14:06:53+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: Channel 'oslab' is configured as created, skipping creation 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: peer0.org1.oslab.com has already joined oslab 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: peer1.org1.oslab.com has already joined oslab 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: peer0.org2.oslab.com has already joined oslab 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: peer1.org2.oslab.com has already joined oslab 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org1.oslab.com 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org1.oslab.com 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer0.org2.oslab.com 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: smallbank@v0 is already installed on peer1.org2.oslab.com 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-03-02T14:06:54+09:00 - INFO [adapters/fabric]: smallbank@v0 is already instantiated in oslab 
+
+2020-03-02T14:06:54+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-03-02T14:06:54+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-03-02T14:06:54+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6767 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6773 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6780 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6781 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6793 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6795 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6808 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6815 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6817 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Launching client with PID  6829 
+
+2020-03-02T14:06:54+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-03-02T14:06:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:54+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-03-02T14:06:56+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-03-02T14:06:56+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-02T14:06:56+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6767 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6793 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6815 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6773 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6829 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6817 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6780 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6781 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6808 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:56+09:00 - INFO [local-client.js]: Info: client 6795 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:06:56+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:06:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-03-02T14:06:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 660 Succ: 0 Fail:0 Unfinished:660 
+
+2020-03-02T14:06:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1500 Succ: 440 Fail:0 Unfinished:1060 
+
+2020-03-02T14:07:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2530 Succ: 930 Fail:0 Unfinished:1600 
+
+2020-03-02T14:07:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3200 Succ: 1610 Fail:0 Unfinished:1590 
+
+2020-03-02T14:07:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3940 Succ: 2090 Fail:0 Unfinished:1850 
+
+2020-03-02T14:07:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5100 Succ: 3140 Fail:0 Unfinished:1960 
+
+2020-03-02T14:07:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6010 Succ: 3570 Fail:0 Unfinished:2440 
+
+2020-03-02T14:07:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6700 Succ: 4790 Fail:0 Unfinished:1910 
+
+2020-03-02T14:07:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7460 Succ: 5340 Fail:0 Unfinished:2120 
+
+2020-03-02T14:07:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8240 Succ: 5990 Fail:0 Unfinished:2250 
+
+2020-03-02T14:07:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9110 Succ: 6860 Fail:0 Unfinished:2250 
+
+2020-03-02T14:07:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9900 Succ: 7170 Fail:0 Unfinished:2730 
+
+2020-03-02T14:07:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9020 Fail:0 Unfinished:980 
+
+2020-03-02T14:07:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 9860 Fail:0 Unfinished:140 
+
+2020-03-02T14:07:12+09:00 - DEBUG [report-builder]: r.create.max: 1583125629.203 r.create.min: 1583125616.851 r.final.max: 1583125631.953 r.final.min: 1583125617.787 r.final.last: 1583125631.953 
+
+2020-03-02T14:07:12+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 662.2 
+
+2020-03-02T14:07:12+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-02T14:07:12+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-02T14:07:12+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-02T14:07:12+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-02T14:07:12+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 809.6 tps | 5.37 s      | 0.76 s      | 2.29 s      | 662.2 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-02T14:07:12+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-02T14:07:12+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 11.5MB      | 11.5MB      | 40.45%   | 26.24%   | 8.7MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 11.7MB      | 11.7MB      | 39.99%   | 25.36%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 11.5MB      | 11.4MB      | 39.52%   | 25.49%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 11.3MB      | 11.3MB      | 40.67%   | 25.06%   | 8.6MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 1.4GB       | 1.3GB       | 269.25%  | 212.21%  | 49.3MB     | 23.1MB      | 0B        | 124.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 1.4GB       | 1.3GB       | 280.60%  | 213.34%  | 49.3MB     | 22.0MB      | 0B        | 126.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 1.4GB       | 1.3GB       | 271.22%  | 217.28%  | 49.2MB     | 22.0MB      | 0B        | 126.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 1.4GB       | 1.3GB       | 259.01%  | 202.88%  | 49.3MB     | 22.0MB      | 0B        | 122.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.6GB       | 1.3GB       | 154.27%  | 101.98%  | 67.2MB     | 28.8MB      | 0B        | 114.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.4GB       | 1.2GB       | 89.99%   | 52.95%   | 52.7MB     | 14.0MB      | 0B        | 114.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.5GB       | 1.3GB       | 120.33%  | 76.57%   | 57.6MB     | 173.4MB     | 0B        | 114.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 322.9MB     | 322.6MB     | 1.32%    | 0.66%    | 1.1KB      | 1.7KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.4GB       | 1.3GB       | 5.35%    | 3.65%    | 38.9MB     | 222.9KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 1.4GB       | 1.3GB       | 3.29%    | 2.44%    | 38.8MB     | 143.2KB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.4GB       | 1.4GB       | 23.63%   | 13.32%   | 39.6MB     | 194.8MB     | 0B        | 24.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.8MB      | 36.8MB      | 0.10%    | 0.07%    | 3.1KB      | 1.8KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 37.5MB      | 37.5MB      | 0.15%    | 0.10%    | 4.0KB      | 2.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.2MB      | 11.2MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.7MB       | 9.7MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.9MB      | 37.9MB      | 0.20%    | 0.14%    | 3.8KB      | 5.0KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-02T14:07:12+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-02T14:07:12+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-02T14:07:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:13+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:14+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:15+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:16+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:17+09:00 - INFO [defaultTest]: ------ Test round 2 ------ 
+
+2020-03-02T14:07:17+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-03-02T14:07:17+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-02T14:07:17+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6793 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6780 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6795 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6773 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6781 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6817 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6808 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6767 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6829 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - INFO [local-client.js]: Info: client 6815 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-03-02T14:07:17+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10000 Succ: 10000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:18+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10890 Succ: 10390 Fail:0 Unfinished:500 
+
+2020-03-02T14:07:19+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 11790 Succ: 11160 Fail:0 Unfinished:630 
+
+2020-03-02T14:07:20+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 12730 Succ: 11960 Fail:0 Unfinished:770 
+
+2020-03-02T14:07:21+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 13540 Succ: 12680 Fail:0 Unfinished:860 
+
+2020-03-02T14:07:22+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 14390 Succ: 13430 Fail:0 Unfinished:960 
+
+2020-03-02T14:07:23+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 15090 Succ: 14070 Fail:0 Unfinished:1020 
+
+2020-03-02T14:07:24+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 15920 Succ: 14710 Fail:0 Unfinished:1210 
+
+2020-03-02T14:07:25+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 16860 Succ: 15450 Fail:0 Unfinished:1410 
+
+2020-03-02T14:07:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 17460 Succ: 16150 Fail:0 Unfinished:1310 
+
+2020-03-02T14:07:27+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 18430 Succ: 17050 Fail:0 Unfinished:1380 
+
+2020-03-02T14:07:28+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19470 Succ: 17320 Fail:0 Unfinished:2150 
+
+2020-03-02T14:07:29+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 17710 Fail:0 Unfinished:2290 
+
+2020-03-02T14:07:30+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 18760 Fail:0 Unfinished:1240 
+
+2020-03-02T14:07:31+09:00 - DEBUG [report-builder]: r.create.max: 1583125648.626 r.create.min: 1583125637.24 r.final.max: 1583125651.077 r.final.min: 1583125637.673 r.final.last: 1583125651.077 
+
+2020-03-02T14:07:31+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 722.7 
+
+2020-03-02T14:07:31+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-02T14:07:31+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-02T14:07:31+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-02T14:07:31+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-02T14:07:31+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 878.3 tps | 3.71 s      | 0.28 s      | 1.50 s      | 722.7 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-02T14:07:31+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-02T14:07:31+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.5MB      | 11.9MB      | 38.64%   | 29.02%   | 7.3MB      | 3.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.5MB      | 12.0MB      | 35.72%   | 27.60%   | 7.0MB      | 3.6MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.0MB      | 34.57%   | 27.25%   | 7.2MB      | 3.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 12.8MB      | 11.9MB      | 34.80%   | 26.81%   | 7.1MB      | 3.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 1.5GB       | 1.5GB       | 330.27%  | 275.14%  | 43.7MB     | 18.9MB      | 8.0KB     | 858.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 1.5GB       | 1.4GB       | 303.34%  | 270.92%  | 43.8MB     | 18.9MB      | 0B        | 858.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 1.5GB       | 1.5GB       | 295.63%  | 264.92%  | 43.7MB     | 18.8MB      | 0B        | 839.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 1.5GB       | 1.4GB       | 297.62%  | 261.94%  | 43.1MB     | 18.7MB      | 0B        | 857.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.7GB       | 1.7GB       | 180.98%  | 104.88%  | 54.5MB     | 21.4MB      | 8.0KB     | 100.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.4GB       | 1.4GB       | 106.63%  | 85.44%   | 46.8MB     | 13.0MB      | 0B        | 102.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.6GB       | 1.5GB       | 155.74%  | 112.59%  | 51.8MB     | 153.8MB     | 0B        | 99.3MB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 323.0MB     | 322.9MB     | 0.72%    | 0.47%    | 516B       | 864B        | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.4GB       | 1.4GB       | 9.01%    | 5.82%    | 34.1MB     | 311.5KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 1.4GB       | 1.4GB       | 7.21%    | 4.51%    | 33.5MB     | 235.9KB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.4GB       | 1.4GB       | 53.97%   | 28.94%   | 35.1MB     | 170.9MB     | 0B        | 32.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.8MB      | 36.8MB      | 0.10%    | 0.08%    | 2.5KB      | 1.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 37.5MB      | 37.5MB      | 0.15%    | 0.11%    | 3.3KB      | 2.1KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.2MB      | 11.2MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.7MB       | 9.7MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.9MB      | 37.9MB      | 0.20%    | 0.14%    | 2.9KB      | 3.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-02T14:07:31+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-02T14:07:31+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-02T14:07:31+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:32+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:33+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:34+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:35+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:36+09:00 - INFO [defaultTest]: ------ Test round 3 ------ 
+
+2020-03-02T14:07:36+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-03-02T14:07:36+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-02T14:07:36+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":1000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6767 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6817 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6781 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6795 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6793 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6773 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6780 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6808 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6829 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [local-client.js]: Info: client 6815 start test runFixedNumber():small_bank_operations 
+
+2020-03-02T14:07:36+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-03-02T14:07:36+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:37+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20990 Succ: 20390 Fail:0 Unfinished:600 
+
+2020-03-02T14:07:38+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 21800 Succ: 20850 Fail:0 Unfinished:950 
+
+2020-03-02T14:07:39+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 22560 Succ: 21420 Fail:0 Unfinished:1140 
+
+2020-03-02T14:07:40+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 23580 Succ: 22120 Fail:0 Unfinished:1460 
+
+2020-03-02T14:07:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 24440 Succ: 22750 Fail:0 Unfinished:1690 
+
+2020-03-02T14:07:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 24880 Succ: 23240 Fail:0 Unfinished:1640 
+
+2020-03-02T14:07:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 26050 Succ: 24030 Fail:0 Unfinished:2020 
+
+2020-03-02T14:07:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 27020 Succ: 24890 Fail:0 Unfinished:2130 
+
+2020-03-02T14:07:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 27860 Succ: 25710 Fail:0 Unfinished:2150 
+
+2020-03-02T14:07:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 28870 Succ: 26580 Fail:0 Unfinished:2290 
+
+2020-03-02T14:07:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 29690 Succ: 27120 Fail:0 Unfinished:2570 
+
+2020-03-02T14:07:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 28830 Fail:0 Unfinished:1170 
+
+2020-03-02T14:07:49+09:00 - DEBUG [report-builder]: r.create.max: 1583125667.342 r.create.min: 1583125656.342 r.final.max: 1583125669.316 r.final.min: 1583125656.795 r.final.last: 1583125669.316 
+
+2020-03-02T14:07:49+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 770.8 
+
+2020-03-02T14:07:49+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 10000 
+
+2020-03-02T14:07:49+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-03-02T14:07:49+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-03-02T14:07:49+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-03-02T14:07:49+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 10000 | 0    | 909.1 tps | 4.45 s      | 0.32 s      | 1.89 s      | 770.8 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-02T14:07:49+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-03-02T14:07:49+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.5MB      | 13.5MB      | 37.37%   | 34.99%   | 6.5MB      | 3.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.5MB      | 13.5MB      | 38.11%   | 35.71%   | 6.5MB      | 3.3MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 36.18%   | 33.96%   | 6.6MB      | 3.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 12.8MB      | 12.8MB      | 36.49%   | 34.44%   | 6.6MB      | 3.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 1.5GB       | 1.5GB       | 305.92%  | 268.61%  | 35.1MB     | 16.4MB      | 0B        | 106.6MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 1.5GB       | 1.5GB       | 300.84%  | 264.78%  | 35.7MB     | 16.7MB      | 8.0KB     | 108.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 1.5GB       | 1.5GB       | 284.59%  | 263.68%  | 34.5MB     | 16.3MB      | 0B        | 106.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 1.5GB       | 1.5GB       | 280.48%  | 270.94%  | 36.2MB     | 16.7MB      | 0B        | 108.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.7GB       | 1.7GB       | 128.71%  | 103.34%  | 40.0MB     | 13.1MB      | 0B        | 81.9MB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.5GB       | 1.4GB       | 149.12%  | 118.82%  | 41.7MB     | 14.9MB      | 8.0KB     | 80.3MB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.6GB       | 1.6GB       | 209.04%  | 148.52%  | 45.0MB     | 130.7MB     | 0B        | 84.8MB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 323.1MB     | 323.1MB     | 0.83%    | 0.59%    | 344B       | 576B        | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.4GB       | 1.4GB       | 5.70%    | 4.80%    | 27.0MB     | 151.3KB     | 0B        | 16.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 1.4GB       | 1.4GB       | 4.13%    | 3.68%    | 27.7MB     | 102.9KB     | 0B        | 16.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.5GB       | 1.4GB       | 30.53%   | 20.86%   | 27.7MB     | 136.1MB     | 0B        | 16.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.8MB      | 36.8MB      | 0.10%    | 0.08%    | 1.9KB      | 1.1KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 37.5MB      | 37.5MB      | 0.10%    | 0.07%    | 2.5KB      | 1.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.2MB      | 11.2MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.7MB       | 9.7MB       | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.9MB      | 37.9MB      | 0.16%    | 0.11%    | 2.2KB      | 3.0KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-02T14:07:49+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-03-02T14:07:49+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-03-02T14:07:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:54+09:00 - INFO [defaultTest]: ####### Testing 'query' ####### 
+
+2020-03-02T14:07:54+09:00 - INFO [defaultTest]: ------ Test round 4 ------ 
+
+2020-03-02T14:07:54+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-03-02T14:07:54+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-03-02T14:07:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-03-02T14:07:54+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"query","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"cb":"benchmarks/scenario/smallbank/query.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":10,"roundIdx":4,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6781 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6795 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6773 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6767 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6773,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":297226240,"heapTotal":122142720,"heapUsed":68628688,"external":6907424}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6829 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6795,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":394416128,"heapTotal":132104192,"heapUsed":80997792,"external":9780739}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6781,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":385081344,"heapTotal":131055616,"heapUsed":80952024,"external":7555154}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6767,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":336932864,"heapTotal":125812736,"heapUsed":66063112,"external":5071557}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6829,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":341553152,"heapTotal":128434176,"heapUsed":76977944,"external":6443542}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6808 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6780 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6793 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6815 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6808,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":361635840,"heapTotal":131055616,"heapUsed":80782760,"external":13201875}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - INFO [local-client.js]: Info: client 6817 start test runFixedNumber():querying accounts 
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6780,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":342687744,"heapTotal":129482752,"heapUsed":91056192,"external":14760787}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6793,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":312512512,"heapTotal":117948416,"heapUsed":65376184,"external":7204304}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6815,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":348901376,"heapTotal":128434176,"heapUsed":64994704,"external":6188589}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:54+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#4
+	{"type":"fixed-rate","opts":{"tps":50}}
+
+2020-03-02T14:07:54+09:00 - ERROR uncaughtException: Cannot read property 'toString' of undefined
+	{"date":"Mon Mar 02 2020 14:07:54 GMT+0900 (Korean Standard Time)","process":{"pid":6817,"uid":1000,"gid":1000,"cwd":"/home/oslab/go/src/github.com/consensus/caliper","execPath":"/home/oslab/.nvm/versions/node/v10.15.1/bin/node","version":"v10.15.1","argv":["/home/oslab/.nvm/versions/node/v10.15.1/bin/node","/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabricClientWorker.js","/home/oslab/.nvm/versions/node/v10.15.1/bin/caliper","benchmark","run","--caliper-workspace","./","--caliper-benchconfig","benchmarks/scenario/smallbank/config_linear_raft.yaml","--caliper-networkconfig","networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local-network.yaml"],"memoryUsage":{"rss":378159104,"heapTotal":134201344,"heapUsed":94845688,"external":21631689}},"os":{"loadavg":[12.8447265625,4.80078125,4.09326171875],"uptime":2068372},"trace":[{"column":42,"file":"/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js","function":"Object.module.exports.run","line":35,"method":"run","native":false},{"column":34,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"setImmediatePromise","line":174,"method":null,"native":false},{"column":17,"file":"/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js","function":"Immediate.setImmediate","line":147,"method":"setImmediate","native":false},{"column":18,"file":"timers.js","function":"runCallback","line":705,"method":null,"native":false},{"column":5,"file":"timers.js","function":"tryOnImmediate","line":676,"method":null,"native":false},{"column":5,"file":"timers.js","function":"processImmediate","line":658,"method":null,"native":false}],"stack":["TypeError: Cannot read property 'toString' of undefined","    at Object.module.exports.run (/home/oslab/go/src/github.com/consensus/caliper/benchmarks/scenario/smallbank/query.js:35:42)","    at setImmediatePromise (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:174:34)","    at Immediate.setImmediate (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/caliper-local-client.js:147:17)","    at runCallback (timers.js:705:18)","    at tryOnImmediate (timers.js:676:5)","    at processImmediate (timers.js:658:5)"]}
+
+2020-03-02T14:07:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - ERROR [defaultTest]: ------ Failed 'query' testing with the following error ------
+    Error: Client already exited
+    at ChildProcess.<anonymous> (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:115:32)
+    at ChildProcess.emit (events.js:189:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:248:12) 
+
+2020-03-02T14:07:57+09:00 - INFO [caliper-flow]: ---------- Finished Test ----------
+ 
+
+2020-03-02T14:07:57+09:00 - INFO [report-builder]: ###all test results:### 
+
+2020-03-02T14:07:57+09:00 - INFO [report-builder]: 
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Test | Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 1    | smallOperations | 10000 | 0    | 809.6 tps | 5.37 s      | 0.76 s      | 2.29 s      | 662.2 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 2    | smallOperations | 10000 | 0    | 878.3 tps | 3.71 s      | 0.28 s      | 1.50 s      | 722.7 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 3    | smallOperations | 10000 | 0    | 909.1 tps | 4.45 s      | 0.32 s      | 1.89 s      | 770.8 tps  |
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-03-02T14:07:57+09:00 - INFO [monitor.js]: 
+ ### resource stats (maximum) ### 
+
+2020-03-02T14:07:57+09:00 - INFO [monitor.js]: 
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | CPU(max) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.5MB      | 40.45%   | 8.7MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.5MB      | 39.99%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 12.8MB      | 39.52%   | 8.6MB      | 4.4MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 12.8MB      | 40.67%   | 8.6MB      | 4.5MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 1.5GB       | 330.27%  | 49.4MB     | 23.1MB      | 8.0KB     | 866.8MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 1.5GB       | 303.34%  | 49.4MB     | 22.1MB      | 16.0KB    | 866.9MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 1.6GB       | 295.63%  | 49.3MB     | 22.1MB      | 0B        | 866.8MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 1.5GB       | 297.62%  | 49.4MB     | 22.1MB      | 8.0KB     | 865.1MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 1.8GB       | 180.98%  | 67.2MB     | 28.8MB      | 8.0KB     | 115.0MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 1.5GB       | 149.12%  | 52.7MB     | 15.0MB      | 8.0KB     | 115.0MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 1.6GB       | 209.04%  | 57.7MB     | 173.8MB     | 0B        | 115.0MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 323.4MB     | 1.32%    | 1.3KB      | 2.1KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 1.4GB       | 9.01%    | 38.9MB     | 348.1KB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 1.4GB       | 7.21%    | 38.9MB     | 241.4KB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 1.5GB       | 53.97%   | 39.6MB     | 194.8MB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 36.8MB      | 0.13%    | 4.4KB      | 2.6KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 37.5MB      | 0.16%    | 5.8KB      | 3.6KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 11.2MB      | 0.35%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 9.7MB       | 0.30%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 37.9MB      | 0.23%    | 5.1KB      | 6.8KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [client-util.js]: Client exited with code 1 
+
+2020-03-02T14:07:57+09:00 - INFO [caliper-flow]: Generated report with path /home/oslab/go/src/github.com/consensus/caliper/report-20200302T050757.html 
+
+2020-03-02T14:07:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30000 Succ: 30000 Fail:0 Unfinished:0 
+
+2020-03-02T14:07:57+09:00 - INFO [caliper-flow]: 
+
+#######################################
+# Test summary: 3 succeeded, 1 failed #
+#######################################
+ 
+
+2020-03-02T14:07:57+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;; 
+

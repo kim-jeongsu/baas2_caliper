@@ -1,0 +1,14 @@
+2020-01-28T10:26:13+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-01-28T10:26:14+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-01-28T10:26:14+09:00 - INFO [caliper-utils]: Executing command: cd /Users/kwanhoon/Documents/github.com/consensus/caliper/networks/fabric-v1.4;export NETWORK_MODE_NAME=raft300; export FABRIC_VERSION=1.4.1;docker-compose -f networks/fabric-v1.4/docker-compose/raft300/docker-compose.yaml up -d; sleep 10s 
+
+2020-01-28T10:33:55+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-01-28T10:33:56+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-01-28T10:33:56+09:00 - INFO [caliper-utils]: Executing command: cd /Users/kwanhoon/Documents/github.com/consensus/caliper/networks/fabric-v1.4;export NETWORK_MODE_NAME=raft300; export FABRIC_VERSION=1.4.1;docker-compose -f networks/fabric-v1.4/docker-compose/raft300/docker-compose.yaml up -d; sleep 10s 
+

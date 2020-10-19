@@ -1,0 +1,1407 @@
+2020-02-12T00:06:43+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:06:44+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-02-12T00:06:44+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;docker-compose -f networks/fabric-v1.4/docker-compose/3orderer2org5peer_kafka_batch_100/docker-compose.yaml up -d; sleep 10s 
+
+2020-02-12T00:07:15+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:07:15+09:00 - INFO [adapters/fabric]: Channel 'oslab' definiton being retrieved from file 
+
+2020-02-12T00:07:16+09:00 - INFO [adapters/fabric]: Channel 'oslab' successfully created 
+
+2020-02-12T00:07:16+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-12T00:07:21+09:00 - INFO [adapters/fabric]: Org1's peers successfully joined oslab: peer0.org1.oslab.com,peer1.org1.oslab.com 
+
+2020-02-12T00:07:21+09:00 - INFO [adapters/fabric]: Org2's peers successfully joined oslab: peer0.org2.oslab.com,peer1.org2.oslab.com 
+
+2020-02-12T00:07:21+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-12T00:07:26+09:00 - INFO [adapters/fabric]: Installing chaincodes for oslab... 
+
+2020-02-12T00:07:26+09:00 - INFO [adapters/fabric]: smallbank@v0 successfully installed on Org1's peers: peer0.org1.oslab.com,peer1.org1.oslab.com 
+
+2020-02-12T00:07:26+09:00 - INFO [adapters/fabric]: smallbank@v0 successfully installed on Org2's peers: peer0.org2.oslab.com,peer1.org2.oslab.com 
+
+2020-02-12T00:07:26+09:00 - INFO [adapters/fabric]: Instantiating smallbank@v0 in oslab. This might take some time... 
+
+2020-02-12T00:07:33+09:00 - INFO [adapters/fabric]: Successfully instantiated smallbank@v0 in oslab 
+
+2020-02-12T00:07:33+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-12T00:07:38+09:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2020-02-12T00:07:38+09:00 - INFO [defaultTest]: ####### Testing 'smallOperations' ####### 
+
+2020-02-12T00:07:38+09:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2020-02-12T00:07:38+09:00 - INFO [client-util.js]: Launching client with PID  35074 
+
+2020-02-12T00:07:38+09:00 - INFO [client-util.js]: Launching client with PID  35080 
+
+2020-02-12T00:07:38+09:00 - INFO [client-util.js]: Launching client with PID  35081 
+
+2020-02-12T00:07:38+09:00 - INFO [client-util.js]: Launching client with PID  35088 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35095 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35102 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35115 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35122 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35130 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Launching client with PID  35137 
+
+2020-02-12T00:07:39+09:00 - INFO [client-util.js]: Waiting for 10 clients to be ready...  
+
+2020-02-12T00:07:39+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:39+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:07:40+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:40+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:40+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-12T00:07:40+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:40+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: Client ready message recieved 
+
+2020-02-12T00:07:41+09:00 - INFO [client-util.js]: 10 clients ready, starting test phase 
+
+2020-02-12T00:07:41+09:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-12T00:07:41+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":800}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":1,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35074 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35137 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35102 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35081 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35115 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35088 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35122 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35095 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35080 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [local-client.js]: Info: client 35130 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:07:41+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#1
+	{"type":"fixed-rate","opts":{"tps":800}}
+
+2020-02-12T00:07:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2020-02-12T00:07:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 620 Succ: 0 Fail:0 Unfinished:620 
+
+2020-02-12T00:07:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1380 Succ: 450 Fail:0 Unfinished:930 
+
+2020-02-12T00:07:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2260 Succ: 1140 Fail:0 Unfinished:1120 
+
+2020-02-12T00:07:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3110 Succ: 1850 Fail:0 Unfinished:1260 
+
+2020-02-12T00:07:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3970 Succ: 2720 Fail:0 Unfinished:1250 
+
+2020-02-12T00:07:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4900 Succ: 3410 Fail:0 Unfinished:1490 
+
+2020-02-12T00:07:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 5500 Succ: 4240 Fail:0 Unfinished:1260 
+
+2020-02-12T00:07:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 6430 Succ: 5170 Fail:0 Unfinished:1260 
+
+2020-02-12T00:07:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7030 Succ: 5720 Fail:0 Unfinished:1310 
+
+2020-02-12T00:07:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 7890 Succ: 6390 Fail:0 Unfinished:1500 
+
+2020-02-12T00:07:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 8680 Succ: 7070 Fail:0 Unfinished:1610 
+
+2020-02-12T00:07:53+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 9390 Succ: 7880 Fail:0 Unfinished:1510 
+
+2020-02-12T00:07:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 10200 Succ: 8660 Fail:0 Unfinished:1540 
+
+2020-02-12T00:07:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 11140 Succ: 9580 Fail:0 Unfinished:1560 
+
+2020-02-12T00:07:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 12040 Succ: 10580 Fail:0 Unfinished:1460 
+
+2020-02-12T00:07:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 12860 Succ: 11540 Fail:0 Unfinished:1320 
+
+2020-02-12T00:07:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 13710 Succ: 12280 Fail:0 Unfinished:1430 
+
+2020-02-12T00:07:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 14450 Succ: 13110 Fail:0 Unfinished:1340 
+
+2020-02-12T00:08:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 15280 Succ: 13980 Fail:0 Unfinished:1300 
+
+2020-02-12T00:08:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 16120 Succ: 14870 Fail:0 Unfinished:1250 
+
+2020-02-12T00:08:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 16960 Succ: 15830 Fail:0 Unfinished:1130 
+
+2020-02-12T00:08:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 17820 Succ: 16320 Fail:0 Unfinished:1500 
+
+2020-02-12T00:08:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 18640 Succ: 17080 Fail:0 Unfinished:1560 
+
+2020-02-12T00:08:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19460 Succ: 17940 Fail:0 Unfinished:1520 
+
+2020-02-12T00:08:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19980 Succ: 18870 Fail:0 Unfinished:1110 
+
+2020-02-12T00:08:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:08+09:00 - DEBUG [report-builder]: r.create.max: 1581433686.347 r.create.min: 1581433661.274 r.final.max: 1581433687.846 r.final.min: 1581433662.193 r.final.last: 1581433687.846 
+
+2020-02-12T00:08:08+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 752.7 
+
+2020-02-12T00:08:08+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-12T00:08:08+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-12T00:08:08+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-12T00:08:08+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-12T00:08:08+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 20000 | 0    | 797.7 tps | 3.89 s      | 0.68 s      | 1.66 s      | 752.7 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-12T00:08:08+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-12T00:08:08+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 12.8MB      | 11.2MB      | 35.47%   | 29.28%   | 17.0MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.5MB      | 11.4MB      | 34.43%   | 29.71%   | 17.1MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.1MB      | 11.3MB      | 35.83%   | 29.37%   | 17.0MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.4MB      | 11.1MB      | 34.17%   | 28.63%   | 17.1MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 371.3MB     | 243.8MB     | 356.13%  | 240.10%  | 97.3MB     | 43.6MB      | 0B        | 248.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 376.1MB     | 243.3MB     | 309.97%  | 240.17%  | 97.3MB     | 43.8MB      | 0B        | 248.2MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 366.0MB     | 242.6MB     | 301.57%  | 241.78%  | 97.6MB     | 43.7MB      | 8.0KB     | 247.0MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 377.2MB     | 246.1MB     | 334.18%  | 236.88%  | 97.8MB     | 44.9MB      | 0B        | 248.2MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 624.8MB     | 422.2MB     | 147.99%  | 101.67%  | 119.4MB    | 119.3MB     | 0B        | 205.7MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 544.3MB     | 375.8MB     | 141.29%  | 105.64%  | 115.6MB    | 268.0MB     | 0B        | 204.7MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 599.4MB     | 391.1MB     | 130.06%  | 102.22%  | 116.7MB    | 40.0MB      | 0B        | 206.8MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 314.9MB     | 314.9MB     | 2.18%    | 0.93%    | 1.5KB      | 1.8KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 460.3MB     | 394.7MB     | 77.07%   | 32.78%   | 77.3MB     | 481.8KB     | 0B        | 40.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 457.8MB     | 408.2MB     | 69.58%   | 28.77%   | 77.1MB     | 639.6KB     | 0B        | 40.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 535.3MB     | 456.0MB     | 250.41%  | 116.28%  | 80.4MB     | 391.0MB     | 0B        | 40.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 10.4MB      | 10.4MB      | 0.00%    | 0.00%    | 525B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 60.1MB      | 60.0MB      | 1.43%    | 0.47%    | 7.6KB      | 4.4KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 57.3MB      | 57.1MB      | 0.47%    | 0.24%    | 7.2KB      | 8.8KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.2MB      | 11.2MB      | 0.00%    | 0.00%    | 525B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 53.0MB      | 53.0MB      | 0.42%    | 0.20%    | 6.2KB      | 3.4KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-12T00:08:08+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-12T00:08:08+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-02-12T00:08:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:13+09:00 - INFO [defaultTest]: ------ Test round 2 ------ 
+
+2020-02-12T00:08:13+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-02-12T00:08:13+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-12T00:08:13+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":900}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":2,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35095 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35088 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35137 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35115 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35102 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35130 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35081 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35080 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35074 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - INFO [local-client.js]: Info: client 35122 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#2
+	{"type":"fixed-rate","opts":{"tps":900}}
+
+2020-02-12T00:08:13+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20000 Succ: 20000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:14+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 20900 Succ: 20400 Fail:0 Unfinished:500 
+
+2020-02-12T00:08:15+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 21800 Succ: 21090 Fail:0 Unfinished:710 
+
+2020-02-12T00:08:16+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 22700 Succ: 21940 Fail:0 Unfinished:760 
+
+2020-02-12T00:08:17+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 23590 Succ: 22680 Fail:0 Unfinished:910 
+
+2020-02-12T00:08:18+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 24530 Succ: 23560 Fail:0 Unfinished:970 
+
+2020-02-12T00:08:19+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 25480 Succ: 24460 Fail:0 Unfinished:1020 
+
+2020-02-12T00:08:20+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 26360 Succ: 25320 Fail:0 Unfinished:1040 
+
+2020-02-12T00:08:21+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 27320 Succ: 26030 Fail:0 Unfinished:1290 
+
+2020-02-12T00:08:22+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 28270 Succ: 26850 Fail:0 Unfinished:1420 
+
+2020-02-12T00:08:23+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 29250 Succ: 27880 Fail:0 Unfinished:1370 
+
+2020-02-12T00:08:24+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30080 Succ: 28650 Fail:0 Unfinished:1430 
+
+2020-02-12T00:08:25+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 31020 Succ: 29530 Fail:0 Unfinished:1490 
+
+2020-02-12T00:08:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 31930 Succ: 30210 Fail:0 Unfinished:1720 
+
+2020-02-12T00:08:27+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 32830 Succ: 31170 Fail:0 Unfinished:1660 
+
+2020-02-12T00:08:28+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 33880 Succ: 32030 Fail:0 Unfinished:1850 
+
+2020-02-12T00:08:29+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 34750 Succ: 32840 Fail:0 Unfinished:1910 
+
+2020-02-12T00:08:30+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 35620 Succ: 33610 Fail:0 Unfinished:2010 
+
+2020-02-12T00:08:31+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 36480 Succ: 34540 Fail:0 Unfinished:1940 
+
+2020-02-12T00:08:32+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 37250 Succ: 35160 Fail:0 Unfinished:2090 
+
+2020-02-12T00:08:33+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 38040 Succ: 35850 Fail:0 Unfinished:2190 
+
+2020-02-12T00:08:34+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 38980 Succ: 36410 Fail:0 Unfinished:2570 
+
+2020-02-12T00:08:35+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 39720 Succ: 37000 Fail:0 Unfinished:2720 
+
+2020-02-12T00:08:36+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 37900 Fail:0 Unfinished:2100 
+
+2020-02-12T00:08:37+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 38910 Fail:0 Unfinished:1090 
+
+2020-02-12T00:08:38+09:00 - DEBUG [report-builder]: r.create.max: 1581433716.419 r.create.min: 1581433693.129 r.final.max: 1581433718.593 r.final.min: 1581433693.516 r.final.last: 1581433718.593 
+
+2020-02-12T00:08:38+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 785.4 
+
+2020-02-12T00:08:38+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-12T00:08:38+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-12T00:08:38+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-12T00:08:38+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-12T00:08:38+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 20000 | 0    | 858.7 tps | 6.09 s      | 0.25 s      | 1.79 s      | 785.4 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-12T00:08:38+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-12T00:08:38+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.0MB      | 12.9MB      | 39.02%   | 32.26%   | 16.2MB     | 8.2MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.5MB      | 13.5MB      | 42.63%   | 32.78%   | 16.0MB     | 8.2MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.4MB      | 13.3MB      | 38.83%   | 32.06%   | 16.2MB     | 8.3MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.5MB      | 13.5MB      | 39.26%   | 32.25%   | 16.2MB     | 8.2MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 500.1MB     | 443.6MB     | 307.72%  | 280.62%  | 93.4MB     | 41.4MB      | 0B        | 294.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 505.3MB     | 447.1MB     | 302.29%  | 276.17%  | 93.7MB     | 41.4MB      | 0B        | 296.2MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 493.8MB     | 441.6MB     | 315.35%  | 280.70%  | 94.2MB     | 41.4MB      | 0B        | 297.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 508.2MB     | 449.0MB     | 318.43%  | 281.03%  | 93.6MB     | 41.4MB      | 0B        | 298.4MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 749.5MB     | 676.4MB     | 241.52%  | 144.86%  | 117.8MB    | 117.8MB     | 0B        | 198.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 766.5MB     | 628.9MB     | 154.50%  | 122.09%  | 110.1MB    | 256.6MB     | 0B        | 198.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 715.2MB     | 655.4MB     | 168.02%  | 115.09%  | 111.4MB    | 38.0MB      | 0B        | 199.3MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 317.7MB     | 316.5MB     | 1.19%    | 0.71%    | 946B       | 1.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 543.1MB     | 503.8MB     | 60.79%   | 13.68%   | 74.3MB     | 483.3KB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 551.7MB     | 509.7MB     | 24.88%   | 11.55%   | 74.3MB     | 616.7KB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 632.2MB     | 586.6MB     | 131.20%  | 78.20%   | 77.0MB     | 375.4MB     | 0B        | 48.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 10.4MB      | 10.4MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 60.4MB      | 60.3MB      | 0.52%    | 0.26%    | 6.4KB      | 4.0KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 57.4MB      | 57.3MB      | 0.50%    | 0.29%    | 5.6KB      | 7.5KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.2MB      | 11.2MB      | 0.00%    | 0.00%    | 0B         | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 53.3MB      | 53.2MB      | 0.39%    | 0.24%    | 4.8KB      | 2.9KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-12T00:08:38+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-12T00:08:38+09:00 - INFO [defaultTest]: Waiting 5 seconds for the next round... 
+
+2020-02-12T00:08:38+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:39+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:40+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:41+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:42+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:43+09:00 - INFO [defaultTest]: ------ Test round 3 ------ 
+
+2020-02-12T00:08:43+09:00 - INFO [client-util.js]: Waiting for 0 clients to be ready...  
+
+2020-02-12T00:08:43+09:00 - INFO [client-util.js]: 0 clients ready, starting test phase 
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":1}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":0}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":2}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":7}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":5}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":6}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":4}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":3}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":8}
+
+2020-02-12T00:08:43+09:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"smallOperations","rateControl":{"type":"fixed-rate","opts":{"tps":1000}},"trim":0,"args":{"accounts":50000,"txnPerBatch":10},"cb":"benchmarks/scenario/smallbank/smallbankOperations-backup.js","config":"/home/oslab/go/src/github.com/consensus/caliper/networks/fabric-v1.4/caliper/3orderer2org5peer_kafka_batch_100/fabric-go-local.yaml","root":"/home/oslab/go/src/github.com/consensus/caliper","numb":2000,"roundIdx":3,"totalClients":10,"clients":10,"clientargs":{},"clientIdx":9}
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35080 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35074 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35122 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35137 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35130 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#7 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35088 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35115 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#8 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#9 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35081 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#6 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#3 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#2 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35095 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - INFO [local-client.js]: Info: client 35102 start test runFixedNumber():small_bank_operations 
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#4 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - DEBUG [rateControl.js]: Creating rate controller for client#5 for round#3
+	{"type":"fixed-rate","opts":{"tps":1000}}
+
+2020-02-12T00:08:43+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40000 Succ: 40000 Fail:0 Unfinished:0 
+
+2020-02-12T00:08:44+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 40980 Succ: 40380 Fail:0 Unfinished:600 
+
+2020-02-12T00:08:45+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 41850 Succ: 41090 Fail:0 Unfinished:760 
+
+2020-02-12T00:08:46+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 42580 Succ: 41620 Fail:0 Unfinished:960 
+
+2020-02-12T00:08:47+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 43160 Succ: 42050 Fail:0 Unfinished:1110 
+
+2020-02-12T00:08:48+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 43760 Succ: 42380 Fail:0 Unfinished:1380 
+
+2020-02-12T00:08:49+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 44800 Succ: 43020 Fail:0 Unfinished:1780 
+
+2020-02-12T00:08:50+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 45840 Succ: 43700 Fail:0 Unfinished:2140 
+
+2020-02-12T00:08:51+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 46770 Succ: 44460 Fail:0 Unfinished:2310 
+
+2020-02-12T00:08:52+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 47550 Succ: 45090 Fail:0 Unfinished:2460 
+
+2020-02-12T00:08:54+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 48630 Succ: 46160 Fail:0 Unfinished:2470 
+
+2020-02-12T00:08:55+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 49330 Succ: 46390 Fail:0 Unfinished:2940 
+
+2020-02-12T00:08:56+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 50270 Succ: 47220 Fail:0 Unfinished:3050 
+
+2020-02-12T00:08:57+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 50800 Succ: 47270 Fail:0 Unfinished:3530 
+
+2020-02-12T00:08:58+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 51800 Succ: 47950 Fail:0 Unfinished:3850 
+
+2020-02-12T00:08:59+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 52660 Succ: 49060 Fail:0 Unfinished:3600 
+
+2020-02-12T00:09:00+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 53510 Succ: 49900 Fail:0 Unfinished:3610 
+
+2020-02-12T00:09:01+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 54530 Succ: 50970 Fail:0 Unfinished:3560 
+
+2020-02-12T00:09:02+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 55200 Succ: 51600 Fail:0 Unfinished:3600 
+
+2020-02-12T00:09:03+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 56010 Succ: 52030 Fail:0 Unfinished:3980 
+
+2020-02-12T00:09:04+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 56850 Succ: 52940 Fail:0 Unfinished:3910 
+
+2020-02-12T00:09:05+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 57720 Succ: 53550 Fail:0 Unfinished:4170 
+
+2020-02-12T00:09:06+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 58470 Succ: 54170 Fail:0 Unfinished:4300 
+
+2020-02-12T00:09:07+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 59120 Succ: 54720 Fail:0 Unfinished:4400 
+
+2020-02-12T00:09:08+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 59890 Succ: 55920 Fail:0 Unfinished:3970 
+
+2020-02-12T00:09:09+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 59920 Succ: 57340 Fail:0 Unfinished:2580 
+
+2020-02-12T00:09:10+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 58150 Fail:0 Unfinished:1850 
+
+2020-02-12T00:09:11+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59240 Fail:0 Unfinished:760 
+
+2020-02-12T00:09:12+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59740 Fail:0 Unfinished:260 
+
+2020-02-12T00:09:13+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:14+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:15+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:16+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:17+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:18+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:19+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:20+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:21+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:22+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:23+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:24+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[340d82ebfe] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[b9074b1c0a] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[017b449213] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[238347e016] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[3237d0d1e4] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[fd3829e680] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[1a166f999f] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[7d349c81fe] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[ab33583243] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:24+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:24+09:00 - ERROR [adapters/fabric]: Transaction[8e0a3e8075] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59840 Fail:0 Unfinished:160 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[75940ec4b6] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[20bfad7dbb] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[004d4d1d2c] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[b22c5e4936] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[e40704226a] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[a051a569c0] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[a328ac5520] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[a3360c493f] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[fe3f229772] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[56cbac7247] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[101d2958b9] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[4effeee7f3] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[975c94d735] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[9472a02cac] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[3efe3b1ab4] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[c8782b6200] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[c7dd32e16f] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[8c23dbe541] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[eef2bab3e6] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[0e2e85579d] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[588e40706f] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[efd68d26c1] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[ca4e6d6c9b] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[e46175cc27] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[ab3c47528e] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[e25951f629] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[ffa71e25c3] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[eef37f9132] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[8fc2cd2f33] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[2fbc2313e8] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[4ad0196923] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[0b1eef67e5] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[e89c971262] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[9aa0bcef7c] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[ca6fa2f045] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[8b80ff2332] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[43d3a6ec85] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[c4f1ede315] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[1b13afec33] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[94b7ead84c] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[95c0ad4084] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[2d479ef4dc] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[343a2067f4] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[84958a9dd8] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[179a37386a] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[8eabfddbef] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[75cce77fc7] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[9c55fecd87] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[d9de6478c9] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[710aff92c0] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[624da68acb] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[fdc2db22e6] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[585a47cfc9] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[94f9463c3f] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[2d32804d2c] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[48b82cef44] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[081a3e8d89] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[f1bf1fb25a] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[59bbfebf74] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[40a48fa528] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[7414d86824] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[0d5f661fba] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[4b33bbb8d7] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[65755d998e] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[f8c9e7394a] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[74ace16884] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[3317a81ef7] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - WARN [adapters/fabric]: Broadcast error from orderer1.oslab.com: TIMEOUT 
+
+2020-02-12T00:09:25+09:00 - ERROR [adapters/fabric]: Transaction[b29c662c34] unexpected error: TypeError: Cannot read property 'status' of undefined
+    at Fabric._submitSingleTransaction (/home/oslab/.nvm/versions/node/v10.15.1/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-fabric/lib/fabric.js:2001:35) 
+
+2020-02-12T00:09:25+09:00 - DEBUG [report-builder]: r.create.max: 1581433748.527 r.create.min: 1581433723.867 r.final.max: 1581433751.442 r.final.min: 1581433724.245 r.final.last: 1581433765.781 
+
+2020-02-12T00:09:25+09:00 - DEBUG [report-builder]:  throughput for only success time computed: 722.5 
+
+2020-02-12T00:09:25+09:00 - DEBUG [report-builder]: sendTransactionProposal: 0ms length: 20000 
+
+2020-02-12T00:09:25+09:00 - DEBUG [report-builder]: sendTransaction: 0ms 
+
+2020-02-12T00:09:25+09:00 - DEBUG [report-builder]: invokeLatency: 0ms 
+
+2020-02-12T00:09:25+09:00 - INFO [report-builder]: ###test result:### 
+
+2020-02-12T00:09:25+09:00 - INFO [report-builder]: 
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| smallOperations | 19922 | 78   | 811.0 tps | 9.93 s      | 0.35 s      | 3.34 s      | 475.3 tps  |
++-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-12T00:09:25+09:00 - INFO [report-builder]: ### resource stats ### 
+
+2020-02-12T00:09:26+09:00 - INFO [report-builder]: 
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | Memory(avg) | CPU(max) | CPU(avg) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.1MB      | 13.1MB      | 47.52%   | 20.64%   | 15.9MB     | 8.1MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 13.8MB      | 13.6MB      | 45.88%   | 20.98%   | 15.9MB     | 8.2MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.4MB      | 13.4MB      | 46.48%   | 20.47%   | 15.9MB     | 8.1MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.6MB      | 13.6MB      | 47.69%   | 21.12%   | 15.9MB     | 8.1MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 609.8MB     | 575.1MB     | 328.97%  | 176.29%  | 92.5MB     | 40.9MB      | 0B        | 365.6MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 612.8MB     | 579.3MB     | 316.91%  | 178.49%  | 92.5MB     | 40.9MB      | 0B        | 365.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 613.9MB     | 576.9MB     | 318.31%  | 178.03%  | 92.2MB     | 40.9MB      | 0B        | 365.5MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 621.1MB     | 584.4MB     | 329.69%  | 186.20%  | 93.2MB     | 41.3MB      | 0B        | 367.9MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 827.8MB     | 802.9MB     | 251.31%  | 71.17%   | 103.4MB    | 104.0MB     | 0B        | 196.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 888.4MB     | 845.8MB     | 319.70%  | 83.57%   | 112.5MB    | 259.3MB     | 0B        | 197.1MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 969.1MB     | 855.8MB     | 211.59%  | 74.16%   | 119.8MB    | 46.5MB      | 0B        | 198.2MB    |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 315.0MB     | 315.0MB     | 1.41%    | 0.73%    | 2.1KB      | 2.8KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 645.6MB     | 610.6MB     | 7.52%    | 3.08%    | 72.9MB     | 240.5KB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 651.3MB     | 618.7MB     | 24.82%   | 6.72%    | 73.4MB     | 452.7KB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 782.6MB     | 732.5MB     | 99.46%   | 26.40%   | 74.7MB     | 368.5MB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 10.6MB      | 10.6MB      | 0.40%    | 0.03%    | 441B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 60.6MB      | 60.5MB      | 0.42%    | 0.19%    | 11.8KB     | 7.1KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 58.2MB      | 57.8MB      | 0.26%    | 0.20%    | 10.5KB     | 13.3KB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.3MB      | 11.3MB      | 0.00%    | 0.00%    | 441B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|-------------|----------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 53.6MB      | 53.4MB      | 1.18%    | 0.28%    | 9.0KB      | 5.2KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+-------------+----------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-12T00:09:26+09:00 - INFO [defaultTest]: ------ Passed 'smallOperations' testing ------ 
+
+2020-02-12T00:09:26+09:00 - INFO [caliper-flow]: ---------- Finished Test ----------
+ 
+
+2020-02-12T00:09:26+09:00 - INFO [report-builder]: ###all test results:### 
+
+2020-02-12T00:09:26+09:00 - INFO [report-builder]: 
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+| Test | Name            | Succ  | Fail | Send Rate | Max Latency | Min Latency | Avg Latency | Throughput |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 1    | smallOperations | 20000 | 0    | 797.7 tps | 3.89 s      | 0.68 s      | 1.66 s      | 752.7 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 2    | smallOperations | 20000 | 0    | 858.7 tps | 6.09 s      | 0.25 s      | 1.79 s      | 785.4 tps  |
+|------|-----------------|-------|------|-----------|-------------|-------------|-------------|------------|
+| 3    | smallOperations | 19922 | 78   | 811.0 tps | 9.93 s      | 0.35 s      | 3.34 s      | 475.3 tps  |
++------+-----------------+-------+------+-----------+-------------+-------------+-------------+------------+
+ 
+
+2020-02-12T00:09:26+09:00 - INFO [monitor.js]: 
+ ### resource stats (maximum) ### 
+
+2020-02-12T00:09:26+09:00 - INFO [monitor.js]: 
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+| TYPE   | NAME                              | Memory(max) | CPU(max) | Traffic In | Traffic Out | Disc Read | Disc Write |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org1.oslab.com-...nk-v0 | 13.1MB      | 47.52%   | 17.2MB     | 8.8MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer1.org2.oslab.com-...nk-v0 | 14.5MB      | 45.88%   | 17.1MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org2.oslab.com-...nk-v0 | 13.4MB      | 46.48%   | 17.2MB     | 8.8MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | dev-peer0.org1.oslab.com-...nk-v0 | 13.6MB      | 47.69%   | 17.1MB     | 8.7MB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org1.oslab.com              | 609.8MB     | 356.13%  | 99.1MB     | 44.8MB      | 0B        | 365.6MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org2.oslab.com              | 612.8MB     | 316.91%  | 99.0MB     | 44.9MB      | 0B        | 365.5MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer1.org2.oslab.com              | 613.9MB     | 318.31%  | 99.0MB     | 44.8MB      | 8.0KB     | 365.5MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | peer0.org1.oslab.com              | 621.1MB     | 334.18%  | 99.0MB     | 45.9MB      | 0B        | 367.9MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer2.oslab.com                | 827.8MB     | 251.31%  | 120.8MB    | 121.2MB     | 0B        | 208.9MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer1.oslab.com                | 888.4MB     | 319.70%  | 118.0MB    | 273.7MB     | 0B        | 208.9MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | orderer0.oslab.com                | 969.1MB     | 211.59%  | 119.8MB    | 46.5MB      | 0B        | 208.9MB    |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka0                            | 317.7MB     | 2.18%    | 2.1KB      | 2.8KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka2                            | 645.6MB     | 77.07%   | 78.3MB     | 497.1KB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka1                            | 651.3MB     | 69.58%   | 78.4MB     | 692.0KB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | kafka3                            | 782.6MB     | 250.41%  | 80.6MB     | 392.5MB     | 0B        | 64.0KB     |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org2.oslab.com                 | 10.6MB      | 0.40%    | 525B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper1                        | 60.6MB      | 1.43%    | 11.8KB     | 7.1KB       | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper2                        | 58.2MB      | 0.50%    | 10.5KB     | 13.3KB      | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | ca.org1.oslab.com                 | 11.3MB      | 0.00%    | 525B       | 0B          | 0B        | 0B         |
+|--------|-----------------------------------|-------------|----------|------------|-------------|-----------|------------|
+| Docker | zookeeper0                        | 53.7MB      | 1.18%    | 9.0KB      | 5.2KB       | 0B        | 0B         |
++--------+-----------------------------------+-------------+----------+------------+-------------+-----------+------------+
+ 
+
+2020-02-12T00:09:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59922 Fail:78 Unfinished:0 
+
+2020-02-12T00:09:26+09:00 - INFO [caliper-flow]: Generated report with path /home/oslab/go/src/github.com/consensus/caliper/report-20200211T150926.html 
+
+2020-02-12T00:09:26+09:00 - INFO [demo.js]: [Transaction Info] - Submitted: 60000 Succ: 59922 Fail:78 Unfinished:0 
+
+2020-02-12T00:09:26+09:00 - INFO [caliper-flow]: 
+
+#######################################
+# Test summary: 3 succeeded, 0 failed #
+#######################################
+ 
+
+2020-02-12T00:09:26+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;docker-compose -f networks/fabric-v1.4/docker-compose/3orderer2org5peer_kafka_batch_100/docker-compose.yaml down; 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:09:26+09:00 - INFO [client-util.js]: Client exited with code null 
+
+2020-02-12T00:43:11+09:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2020-02-12T00:43:12+09:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2020-02-12T00:43:12+09:00 - INFO [caliper-utils]: Executing command: cd /home/oslab/go/src/github.com/consensus/caliper;export NETWORK_MODE_NAME=3orderer2org5peerkafkabatch100_default; export FABRIC_VERSION=1.4.1;docker-compose -f networks/fabric-v1.4/docker-compose/3orderer2org5peer_kafka_batch_100/docker-compose.yaml up -d; sleep 10s 
+
+2020-02-12T00:43:43+09:00 - INFO [adapters/fabric]: Fabric SDK version: 1.4.1; TLS: server 
+
+2020-02-12T00:43:43+09:00 - WARN [adapters/fabric]: Org1's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:43+09:00 - WARN [adapters/fabric]: Org2's registrar's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:43+09:00 - WARN [adapters/fabric]: Org1's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:44+09:00 - WARN [adapters/fabric]: Org2's admin's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:44+09:00 - WARN [adapters/fabric]: client0.org1.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:44+09:00 - WARN [adapters/fabric]: client0.org2.oslab.com's materials found locally in file system key-value stores. Make sure it is the right one! 
+
+2020-02-12T00:43:44+09:00 - INFO [adapters/fabric]: Channel 'oslab' definiton being retrieved from file 
+
+2020-02-12T00:43:44+09:00 - INFO [adapters/fabric]: Channel 'oslab' successfully created 
+
+2020-02-12T00:43:44+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+
+2020-02-12T00:43:49+09:00 - INFO [adapters/fabric]: Org1's peers successfully joined oslab: peer0.org1.oslab.com,peer1.org1.oslab.com 
+
+2020-02-12T00:43:49+09:00 - INFO [adapters/fabric]: Org2's peers successfully joined oslab: peer0.org2.oslab.com,peer1.org2.oslab.com 
+
+2020-02-12T00:43:49+09:00 - INFO [adapters/fabric]: Sleeping 5s... 
+

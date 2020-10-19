@@ -1,0 +1,53 @@
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+# http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#
+
+version: '2'
+
+services:
+    peer1.org2.oslab.com:
+        container_name: peer1.org2.oslab.com
+        image: hyperledger/fabric-peer:1.4.3
+        environment:
+        # - FABRIC_LOGGING_SPEC=grpc=debug:debug
+        - CORE_CHAINCODE_LOGGING_LEVEL=ERROR
+        - CORE_CHAINCODE_LOGGING_SHIM=ERROR
+        - CORE_CHAINCODE_EXECUTETIMEOUT=999999
+        - CORE_VM_ENDPOINT=unix:///host/var/run/docker.sock
+        - CORE_PEER_ID=peer1.org2.oslab.com
+        - CORE_PEER_ENDORSER_ENABLED=true
+        - CORE_PEER_LOCALMSPID=Org2MSP
+        - CORE_PEER_MSPCONFIGPATH=/etc/hyperledger/msp/peer/msp/
+        - CORE_PEER_ADDRESS=peer1.org2.oslab.com:7051
+        - CORE_PEER_GOSSIP_USELEADERELECTION=true
+        - CORE_PEER_GOSSIP_ORGLEADER=false
+        - CORE_PEER_GOSSIP_EXTERNALENDPOINT=peer1.org2.oslab.com:7051
+        - CORE_PEER_TLS_ENABLED=true
+        - CORE_PEER_TLS_KEY_FILE=/etc/hyperledger/msp/peer/tls/server.key
+        - CORE_PEER_TLS_CERT_FILE=/etc/hyperledger/msp/peer/tls/server.crt
+        - CORE_PEER_TLS_ROOTCERT_FILE=/etc/hyperledger/msp/peer/tls/ca.crt
+        - CORE_VM_DOCKER_HOSTCONFIG_NETWORKMODE=raft300200mb_default
+        working_dir: /opt/gopath/src/github.com/hyperledger/fabric
+        command: peer node start
+        ports:
+        - 7051:7051
+        - 2375:2375
+        - 2376:2376
+        volumes:
+        - /var/run/:/host/var/run/
+        - ../../config/config-raft-300_200mb/crypto-config/peerOrganizations/org2.oslab.com/peers/peer1.org2.oslab.com/:/etc/hyperledger/msp/peer
+        extra_hosts:
+        - "orderer0.oslab.com:192.168.0.144"
+        - "orderer1.oslab.com:192.168.0.145"
+        - "orderer2.oslab.com:192.168.0.146"
+        
